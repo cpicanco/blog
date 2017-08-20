@@ -1,0 +1,88 @@
+<!--Copyright (c) 2015-2016 Carlos Rafael Fernandes Picanço.-->
+<!DOCTYPE html>
+<html lang="{{ page.language }}">
+
+{% capture SHARE_IMAGE %}{{ site.url }}/media/blog/in-flagellis-clean-{{ page.language | downcase }}.png{% endcapture %}
+{% include blog_head.html share-image=SHARE_IMAGE %}
+
+  <body>
+    {% include blog_nav.html home-path="#" %}
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below.
+    style="background-image: url('/media/blog/home-bg.jpg');"
+    -->
+    <header class="intro-header" style="background-color:#153038;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="site-heading">
+              <h1>{{ page.title }}</h1>
+              <hr class="small">
+              <span class="subheading">{{ page.content }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Social Media Widgets -->
+    <div class="container">
+      <div class="row">
+        <div class="text-center">
+          {% include social_buttons.html %}
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Main Content -->
+    {% assign filtered_posts = site.posts | where: "language",page.language %}
+
+    <div class="container">
+      <div class="row">
+        <div class="infinite-container col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      {% for post in filtered_posts limit:site.mpaginate %}
+          <div class="infinite-item post-preview">
+            <a href="{{ post.url }}">
+              <h2 class="post-title">
+                {{ post.title }}
+              </h2>
+              <h3 class="post-subtitle">
+                {{ post.excerpt }}
+              </h3>
+            </a>
+    {% include author_date_front.html %}        
+          <div class="row">
+              <div class="col-lg-8 col-lg col-md-10">
+                <ul class="list-inline">
+          {% for tag in post.tags %}
+                  <li>
+                    <a href="tags/#{{ tag }}"><span class="badge">{{ tag }}</span></a>
+                  </li>
+          {% endfor %}
+                </ul>
+              </div>
+            </div>
+          </div>
+          <hr>
+      {% endfor %}
+        </div>
+        <a class="infinite-more-link" href="page/1/"></a>
+      </div>
+    </div>
+    <hr>
+
+    {% include blog_footer.html %}
+    
+    {% include global_scripts.html %}
+    
+    {% include social_scripts.html %}
+
+    {% include infinite_scripts.html %}
+    
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/clean-blog.min.js"></script> 
+
+  </body>
+</html>
