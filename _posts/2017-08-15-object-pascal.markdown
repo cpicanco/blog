@@ -147,7 +147,7 @@ Baixe os arquivos de instalação correspondentes para o seu sistema no sítio d
 
 Em seguida execute o instalador (ou instaladores, se Linux e OSX). Caso seja solicitado, forneça os privilégios de administrador do sistema operacional ao instalador. O processo de instalação e configuração mínima é automático.
 
-Este guia fará referência aos nomes dos controles da interface Lazarus tal como traduzidos para o português brasileiro, portanto recomenda-se a escolha deste idioma ao longo da instalação. Opcionalmente, após a instalação, altere o idioma no menu superior Ferramentas->Opções da IDE->Ambiente->Geral->Idioma.
+Este guia fará referência aos nomes dos controles da interface Lazarus tal como traduzidos para o português brasileiro, portanto recomenda-se a escolha deste idioma ao longo da instalação. Opcionalmente, após a instalação, altere o idioma no menu superior Ferramentas->Opções da IDE->Ambiente->Geral->Idioma. Opcionalmente você também pode trocar os esquemas de cores das janelas. Diversos esquemas de cores para as janelas estão disponíveis. Para mais informações, consulte o endereço: http://wiki.lazarus.freepascal.org/UserSuppliedSchemeSettings
 
 ## Lazarus - criando e executando uma aplicação
 
@@ -159,9 +159,7 @@ Este guia fará referência aos nomes dos controles da interface Lazarus tal com
 
 Figura 1. Janelas utilizadas neste guia. Legenda: 1, menu superior do lazarus; 2, inspetor de objetos; 3, editor de código; 4, janela principal da aplicação; 5, mensagens; 6, console.
 
-Ao executar o Lazarus pela primeira vez (por meio do comando "startlazarus" em sistemas Linux), uma aplicação (programa com uma interface gráfica) é criada automaticamente. Execute a aplicação pressionando F9 (Executar). Essa aplicação padrão é uma janela (um formulário) flutuante com funcionalidades básicas como fechar, minimizar, maximizar, restaurar, mover, redimensionar, entre outras. Essa janela também já vem preparada para receber eventos como aqueles produzidos por mouse e teclado.
-
-Opcionalmente você pode trocar os esquemas de cores das janelas. Diversos esquemas de cores para as janelas estão disponíveis. Para mais informações, consulte o endereço: http://wiki.lazarus.freepascal.org/UserSuppliedSchemeSettings.
+Ao executar o Lazarus pela primeira vez (por meio do comando "startlazarus" em sistemas Linux), uma aplicação (programa com uma interface gráfica) é criada automaticamente. Execute a aplicação pressionando F9 (Executar). Essa aplicação padrão é uma janela (um formulário) flutuante com funcionalidades básicas como fechar, minimizar, maximizar, restaurar, mover, redimensionar, entre outras. Essa janela também já vem preparada para receber eventos como aqueles produzidos por mouse e teclado..
 
 ## Lazarus - encerrando uma aplicação
 
