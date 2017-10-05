@@ -4,6 +4,7 @@ title: 'Object Pascal e Análise do Comportamento'
 tags: ['ciência', 'programação']
 excerpt: 'Introdução ao desenvolvimento de interfaces gráficas com Lazarus e Free Pascal'
 language: pt-BR
+private: True
 copyright: <!--Copyright (c) 2017 Carlos Rafael Fernandes Picanço.-->
 ---
 
