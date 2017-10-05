@@ -180,27 +180,24 @@ Para os objetivos deste guia, estratégias básicas de depuração serão aprese
 
 ## Free Pascal - Sintaxe básica
 
-Nos tópicos seguintes, sempre que possível, os elementos da linguagem Free Pascal serão apresentados de maneira auto-explicativa nos campos de código por meio de "comentários". Esta sessão foi planejada para ser um recurso de consulta e permitir assim como permitir a leitura corrida.
+Nos tópicos seguintes, sempre que possível, os elementos da linguagem Free Pascal serão apresentados de maneira auto-explicativa nos campos de código por meio de "comentários". Esta sessão foi planejada para ser um recurso de consulta assim como permitir a leitura corrida.
 
 ### Comentários
 
 Textos comentados são ignorados pelo compilador e permitem a documentação do funcionamento e significado de trechos do código.
 
 Comente uma linha inteira usando duas barras no início da linha:
-
-```
+```pascal
 // Esta linha está comentada, pois inicia com duas barras.
 ```
 
 É possível também inserir um comentário ao final da linha:
-
-```
+```pascal
 Este trecho não está comentado, // mas este está.
 ```
 
 Comente diversar linhas por meio de chaves:
-
-```
+```pascal
 {
   Este trecho também está comentado,
   pois está entre chaves simples.
@@ -208,16 +205,18 @@ Comente diversar linhas por meio de chaves:
 ```
 
 Comente um pedaço de texto dentro de uma linha por meio de chaves:
-```
+```pascal
 Este não, { este sim } este não.
 ```
 
 ### Programa, Blocos, Início, Fim
 
-Um programa pascal é um conjunto de blocos. Ele deve conter no mínimo um bloco de declaração de seu título e um bloco de comandos. Note que o ponto final demarca o final de um módulo. Outros comandos, blocos de comandos e declarações dentro de um módulo devem ser finalizados com ponto e vírgula: 
-
-
-```
+Um programa pascal é um conjunto de blocos.
+Ele deve conter no mínimo um bloco de declaração de seu título e um bloco de comandos.
+O ponto final ao final demarca o final de um programa.
+Outros comandos, blocos de comandos e declarações dentro
+de um módulo devem ser finalizados com ponto e vírgula: 
+```pascal
 program ProjetoPiloto    // declara o identificador, o título do programa
 ;                        // finaliza o bloco de declaração do nome 
 begin                    // inicia o bloco de comandos central
@@ -225,68 +224,83 @@ begin                    // inicia o bloco de comandos central
 end.                     // finaliza o bloco de comandos central e o módulo
 ```
 
-A linguagem não diferencia maiúsculas de minúsculas, portanto o seguinte programa é idêntico ao anterior:
-```
+A linguagem não diferencia maiúsculas de minúsculas,
+portanto o seguinte programa é idêntico ao anterior:
+```pascal
 PROGRAM projetopiloto;
 BEGIN                   
-  writeln('Olá Mundo!');               
+  writeln('Olá Mundo!');              
 END.                    
 ```
 
-A linguagem não é sensível à identação (recuos, paragráfos, espaçamentos, etc.) por meio de caracteres não imprimíveis como o tab, espaço ou final de linha.
+A linguagem não é sensível à identação (recuos, paragráfos, espaçamentos, etc.)
+por meio de caracteres não imprimíveis como o tab, espaço ou final de linha.
 Isto significa que o seguinte programa também é idêntico ao anterior:
-```
+```pascal
 program projetopiloto;begin WriteLn('Olá Mundo!');end.                    
 ```
-Embora idêntico, diferentes convenções de identação existem com o objetivo de melhorar a legibilidade do código. A linguagem permite que você crie sua própria convenção, mas recomenda-se o uso de convenções existentes.
 
-### Diretivas de compilação
+Embora idêntico, diferentes convenções de identação
+existem com o objetivo de melhorar a legibilidade do código.
+A linguagem permite que você crie sua própria convenção,
+mas recomenda-se o uso de convenções existentes.
 
-Diretivas de compilação são instruções ao compilador (ao Free Pascal), não instruções do programa (neste contexto, o projeto piloto).
-Elas podem incluir elementos, assim como mudar o significado de elementos sintáticos de um dialeto.
-As seguintes diretivas especificam o dialeto utilizado neste guia.
-Ele corresponde ao dialeto da aplicação padrão do Lazarus (a interface gráfica):   
-
-```
-// diretivas incluidas por padrão nos módulos criados pelo Lazarus
-{$MODE ObjFPC}   // habilita a sintaxe de orientação ao objeto
-{$H+}            // Torna o tipo String um apelido para o tipo AnsiString
-
-// diretivas não incluidas por padrão nos arquivos, mas passadas por padrão pelo Lazarus ao compilador  
-{$COPERATORS ON} // habilita os operadores +=, -=, *= e /=
-{$GOTO ON}       // habilita as palavras-chave label e goto
-{$INLINE ON}     // habilita a declaração de procedimentos inline
-```
+O arquivo contendo o identificador "program" é o módulo principal de um programa. Mas um programa frequentemente reuni outros arquivos chamados de "unidades". 
 
 ### Unidades 
 
-Uma unidade é um módulo que permite o controle de sua visibilidade a outros módulos.
-Ela possui, necessariamente, um bloco público, visível a outros módulos, e um bloco privado, invisível a outros módulos. Identifique os blocos público e privado da unidade "Unit1" por meio dos comentários a seguir:
+Uma unidade é um módulo que pode ser reutilizado por outros módulos.
+Cada unidade possui, necessariamente, um bloco público (interface),
+visível a outros módulos, e um bloco privado (implementação),
+invisível a outros módulos.
+Um programador deve ser capaz de usar uma unidade conhecendo apenas a interface dela mantendo-se agnóstico sobre a implementação.
+Identifique os blocos público e privado da unidade "Unit1" por meio dos comentários a seguir:
 
-```
+```pascal
 unit Unit1;          // inicia a unidade Unit1
 
 interface            // inicia o bloco público da unidade                
 
-uses Unit2, Unit3;   // declara um bloco de uso com duas unidades
+uses                // a palavra "uses" inicia um "bloco de uso" e permite usar outras unidade
+  Unit2, Unit3;     // as unidades 2 e 3 estão sendo usadas
 
 {
-  As interfaces das unidades 2 e 3 são visíveis em toda a unidade 1,
-  mas a interface da unidade 4 é visível apenas na implementação da unidade 1.
+  As interfaces das unidades 2 e 3 são visíveis
+  em toda a unidade 1 (esta unidade).
 }
 
 implementation       // final do bloco público e início do bloco privado da unidade
 
-uses Unit4;          // a cláusula uses inicia um "bloco de uso" e permite usar outras unidade 
+uses Unit4;           
+
+{
+  Mas a interface da unidade 4 é visível apenas
+  na implementação da unidade 1 (esta unidade). 
+}
 
 end.                 // final da unidade 
 ```
-Um módulo (programa ou unidade) pode ver a interface, mas não a implementação, de unidades em um bloco de uso por meio da cláusula "uses". Identifique os blocos de uso na unidade Unit1 anterior por meio dos comentários.
-Se duas unidades diferentes declaram interfaces iguais, a interface da última unidade na lista é usada com o objetivo de evitar conflitos.
+
+A unidade anterior (Unit1) usa três outras unidades (Unit2, Unit3 e Unit4). 
+Se duas unidades diferentes declaram interfaces iguais,
+a interface da última unidade na lista é usada evitando, portanto, conflitos.
+
+Escrever o dia atual no console reaproveitando as funcionalidades de unidades existentes. A unidade "DateUtils" contém a função "Today" em sua interface. Essa função tem como resultado o dia atual no formato de data (TDateTime). Mas esse formato não é legível, então será necessário convertê-lo para um formato de texto. Para isso, a unidade "SysUtils" contém a função "DateTimeToStr" em sua interface. Essa função converte uma data para texto:
+
+```
+program ProjetoPiloto;
+uses DateUtils, SysUtils;
+begin                    
+  WriteLn(DateTimeToStr(Today));   
+end.     
+
+``` 
+
 
 ### Atribuição, Variáveis, Constantes e Tipos
 
 Uma variável é um identificador associado a um espaço reservado na memória do computador.
+Em outras palavras, uma variável permite salvar um resultado na memória e recuperá-lo quando for necessário. 
 Toda variável possui um tipo e precisa estar declarada em um bloco antes de ser usada. Identifique o bloco de declaração de variáveis por meio dos comentários a seguir: 
 ```
 var                       // inicia um bloco de declaração de variáveis
@@ -300,7 +314,7 @@ begin
 end. 
 ```
 
-Diferentes valores de um mesmo tipo podem ser atribuidos a uma variável no bloco de comandos.
+Variáveis podem receber (atribuição) valores por meio do sinal ":=". A leitura se dá da direita para a esquerda: "Variável := Valor". Diferentes valores de um mesmo tipo podem ser atribuidos a uma variável no bloco de comandos.
 Constantes simples, diferentemente, podem ser declaradas, mas não podem receber atribuição de valores.
 
 ```
@@ -391,7 +405,8 @@ end.
 
 #### "case ... of ... else ..."
 
-O segundo tipo condicional permite testes sobre valores e texto e a bifurcação entre diversos resultados:
+O segundo tipo condicional permite testes sobre valores e texto.
+A bifurcação pode ocorrer entre diversos resultados:
 
 ```
 var
@@ -427,7 +442,7 @@ Existem três tipos de laços de repetição. Dois deles permitem repetir um blo
 
 #### repeat ... until
 
-Permite testar uma condição de saída após um bloco de comandos, ou seja, permite executar um bloco de comandos no mínimo uma vez e repeti-lo até que uma condição de saída seja verdadeira.
+Este laço permite testar uma condição de saída após um bloco de comandos, ou seja, permite executar um bloco de comandos no mínimo uma vez e repeti-lo até que uma condição de saída seja verdadeira.
 
 ```
 var
@@ -444,7 +459,7 @@ end.
 
 ####  while ... do
 
-Permite testar uma condição de saída antes de um bloco de comandos, ou seja, se a condição for falsa o bloco de comandos não executa nenhuma vez e, ao contrário, repetirá enquanto a condição for verdadeira.
+Este laço permite testar uma condição de saída antes de um bloco de comandos, ou seja, se a condição for falsa o bloco de comandos não executa nenhuma vez e, ao contrário, repetirá enquanto a condição for verdadeira.
 
 ```
 var
@@ -453,47 +468,49 @@ begin
   // repetir enquanto uma condição for verdadeira:
   i := 100;
   while i < 100 do // a condição de saída é executada primeiro
-    begin          // portanto este bloco não será executado
-      i := i + 1;  
-    end;
+  begin          // portanto este bloco não será executado
+    i := i + 1;  
+  end;
   
   i := 100;
   while i = 100 do // condição verdadeira, portanto
     i := i + 1;    // este bloco será executado uma vez
 
   // condições de saída customizadas podem ser criadas
-  // o procedimento de saída de laço:
+  // com o procedimento de saída de laço (Break):
   i := 0;
-  while True do       // execute
-    begin
-      WriteLn(i)      // escreva o valor de i no console
-      i := i + 1;     // e incremente i
-      if i > 4 then   // se i maior do que 4 (condição de saída) 
-        Break;        // procedimento de saída de laço
-    end;
-  // WriteLn produz -> 0, 1, 2, 3, 4
+  while True do       // execute infinitamente
+  begin
+    WriteLn(i);       // escreva o valor de i no console
+    i := i + 1;       // incremente i
+    if i > 4 then     // se i maior do que 4 (condição de saída) então 
+      Break;          // saia do laço infinito
+  end;
+  // WriteLn produzirá "0, 1, 2, 3, 4" no console
 
-  // também é possível pular blocos de comando dentro do bloco de repetições
+  // também é possível pular comandos dentro do bloco de repetições
+  // por meio do procedimento "Continue"
   i := 0;
-  while True do     // execute 
+  while True do     // execute infinitamente
+  begin             // início do bloco de repetições
+    if i < 4 then   // se menor do que 4
     begin
-      if i < 4 then // se menor do que 4
-      begin
-        WriteLn(i);                       
-        i := i + 1; // incremente 1
-        Continue;   // e continue do início
-      end;
-                    // se 5 ou maior
-      i := i + 1;   // incremente 2
-      WriteLn(i);
-      Break;        // procedimento de saída do laço
+      WriteLn(i);   // escreva o valor de i no console                    
+      i := i + 1;   // incremente 1
+      Continue;     // e continue do início
     end;
-  // WriteLn produz, o número quatro foi pulado -> 0, 1, 2, 3, 5 
+                    // se 5 ou maior
+    i := i + 1;     // incremente 1
+    WriteLn(i);     // escreva o valor de i no console
+    Break;          // saia do laço infinito
+  end;              // fim
+  // WriteLn produzirá "0, 1, 2, 3, 5" no console
+  // o número quatro foi pulado 
 end.
 ```
 #### for ... to ... do / for ... downto ... do
 
-Permite repetir de acordo com um intervalo.
+Este laço permite repetir de acordo com um intervalo.
 
 ```
   // do menor para o maior
@@ -597,7 +614,7 @@ end.
 
 ### Procedimentos, Funções, Argumentos
 
-Procedimentos e funções são estruturas que permitem a modularização e a reutilização de blocos de comandos. Por exemplo, ao invés de repetir diversas vezes os mesmos comandos, você pode declarar um procedimento e então usá-lo para executar os comandos. Considere os seguintes comandos:
+Procedimentos e funções são estruturas que permitem a modularização e a reutilização de blocos de comandos. Por exemplo, ao invés de repetir diversas vezes os mesmos comandos, você pode declarar um procedimento contendo esses comandos. Considere os seguintes comandos:
 
 ```
 var
@@ -840,7 +857,7 @@ begin
   // s = 'Texto'
 end;
 ```
-Note que as funções Inc, WriteStr e ReadStr são funções da unidade System. Funções são exatamente como procedimentos, mas necessariamente retornam um resultado de um tipo específico. Use a variavél "Result", automaticamente declarada, para retornar o resultado:
+Note que as funções Inc, WriteStr e ReadStr são funções da unidade System. Funções são exatamente como procedimentos, mas necessariamente retornam um resultado de um tipo específico. Ao escrever uma função, use a variável "Result", automaticamente declarada, para salvar o resultado:
 
 ```
 // declara uma função sem argumentos que retorna um boleano:
@@ -865,7 +882,7 @@ end;
 Conversões entre tipos frequentemente são realizadas por meio de funções. Funções comuns estão localizadas na unidade "SysUtils".
 
 ```
-uses SysUtils;          // unidade com funções de conversão
+uses SysUtils;          // unidade com muitas funções de conversão
 
 {...}
 
@@ -903,16 +920,31 @@ end;
 
 ### Classes, Propriedades e Eventos
 
-Variáveis, procedimentos e funções também permitem a construção de eventos,
-propriedades e classes de objetos. A arquitetura de eventos, propriedades e classes
-está fora do escopo do presente guia. Para informações detalhadas sobre arquitetura, procure por padrões de projeto (*Design Patterns*) nas ferramentas de busca, eles são, frequentemente, independentes de linguagens.
+Variáveis, procedimentos e funções também permitem
+a construção de eventos, propriedades e classes de objetos.
+A arquitetura de eventos, propriedades e classes
+está fora do escopo do presente guia.
+Para informações detalhadas sobre arquitetura,
+procure por padrões de projeto (*Design Patterns*)
+nas ferramentas de busca, eles são,
+frequentemente, independentes de linguagens.
 
 Ainda assim, é possível usar arquiteturas existentes ou apenas usar aspectos delas.
-Para isso, o objetivo no momento é de compreender um aspecto importante da arquitetura de programas orientados a objeto, sua sintaxe
+Para isso, o objetivo no momento é de compreender a sintaxe de classes,
 e como fazer uso de propriedades e eventos de classes existentes.
 
-No contexto de programas orientados a objetos, eventos devem ser entendidos como um tipo de mensagem que
-um objeto pode enviar ou receber de outros objetos. Objetos são instâncias criadas por meio de classes. Classes são, literalmente, abstrações de coisas no mundo que possuem relações hierárquicas entre si. Essas abstrações tem, dentre outros, o objetivo de apreender o comportamento de coisas no mundo e tornar o programa intuitivo para aqueles que conhecem essas coisas no mundo. Por exemplo, considere uma lista de texto. O que normalmente se faz com uma lista de texto?
+No contexto de programas orientados a objetos,
+eventos devem ser entendidos como um tipo de mensagem que
+um objeto pode enviar ou receber de outros objetos.
+Objetos são instâncias criadas por meio de classes.
+Classes são, literalmente, abstrações de coisas no mundo
+que possuem relações hierárquicas entre si.
+Essas abstrações tem, dentre outros,
+o objetivo de apreender o comportamento de coisas no mundo
+e tornar o programa intuitivo para aqueles
+que conhecem essas coisas no mundo.
+Por exemplo, considere uma lista de texto.
+O que normalmente se faz com uma lista de texto?
 
 ```
 var
@@ -939,52 +971,98 @@ begin
 end; 
 ```
 
-Objetos frequentemente possuem eventos associados a eles. Sintaticamente, um evento é um tipo que contém a assinatura de um método. 
+Objetos frequentemente possuem eventos associados a eles.
+Sintaticamente, um evento é um tipo que contém a assinatura de um método. 
 
 ```             
-// delclaração de um evento (TNotififyEvent)
-// com um argumento (Sender) 
-// associado a um objeto (of object) 
-type TNotifyEvent = procedure(Sender : TObject) of object;
+type // inicia um bloco de declaração de tipo
+  TNotifyEvent = procedure(Sender : TObject) of object;
+
+// O tipo de evento "TNotifyEvent" está declarado na unidade "Classes"
 
 // "Sender" é o objeto que enviou a mensagem
 // ou, em outras palavras, o objeto que disparou o evento
 ```
-Eventos podem ser declarados como variáveis de uma classe e acessados diretamente ou por meio de propriedades. No pascal orientado a objetos, todas as classes possuem os métodos da classe TObject. Em um jargão técnico, todas as classes herdam os métodos de um ancestral comum que é o TObject. A seguir a classe TMyForm é declarada tendo como ancestral a classe TForm. A classe TForm abstrai o comportamento básico esperado de uma janela: 
+Eventos podem ser declarados como variáveis
+de uma classe e acessados diretamente
+ou por meio de propriedades.
+No pascal orientado a objetos,
+todas as classes possuem os métodos da classe TObject.
+Em um jargão técnico, todas as classes herdam
+os métodos de um ancestral comum que é o TObject.
+Isso significa que todas as classes podem,
+em alguma medida, conversar entre si por meio de eventos
+que tenham um TObject como argumento.
+A seguir a classe TMyForm é declarada tendo
+como ancestral a classe TForm.
+A classe TForm abstrai o comportamento básico esperado de uma janela.
+Note que um novo evento "NotifyEvent" foi declarado.
+Identifique como atribuir um valor ao evento
+e como dispará-lo por meio dos comentários a seguir:
 
 ```
-type
+interface
 
-  TMyForm = class(TForm)  
+type
+  TMyForm = class(TForm)
+    procedure SomeEvent(Sender : TObject);  
   private
-    FNotifyEvent : TNotifyEvent;
-    procedure SetSomeEvent(ANotifyEvent : FNotifyEvent);
-    procedure EventNotification(Sender : TObject);
+    // internamente, eventos são uma variável
+    FNotifyEvent : TNotifyEvent; 
+
+    // e possuem um procedimento de escrita
+    procedure SetNotifyEvent(ANotifyEvent : FNotifyEvent);
   public
+
+    // eventos frequentemente são acessados por meio de propriedades
     property NotifyEvent : TNotifyEvent read FNotifyEvent write SetNotifyEvent;
   end;
+
+  {
+    Para atribuir um valor a um evento,
+    use o prefixo "@" no procedimento alvo.
+    Por exemplo, o procedimento "SomeEvent"
+    poderia ser atribuido à "NotifyEvent" assim:
+    
+      NotifyEvent := @SomeEvent;
+    
+    e disparado assim:
+    
+      NotifyEvent(Self);
+
+    "Self" é uma variável especial dentro de uma classe.
+    Ela contém a identidade de um certo objeto.
+    Todos os objetos possuem identidades diferentes. 
+
+    Note que "evento" e "procedimento" devem
+    possuir a mesma assinatura para que uma
+    atribuição seja possível.
+  }
+
 ```
 
-Existem dois operadores específicos para classes. O operador "is", que permite testes boleanos, e o operador "as" que permite atribuições:
-```
-implementation
-
-{...}
-
-procedure TMyForm.EventNotification(Sender : TObject):
-var
- Form : TMyForm;
-begin
-  // testa se Sender herda de TMyForm
-  if Sender is TMyForm then      // se sim então
- 
-    // o endereço de Sender como TMyForm é atribuido a Form  
-    Form := Sender as TMyForm;   
-end.
-
-```
 
 ## A aplicação padrão do Lazarus
+
+### Diretivas de compilação
+
+Diretivas de compilação são instruções ao compilador (ao Free Pascal),
+não instruções do programa (neste contexto, o projeto piloto).
+Elas podem incluir elementos, assim como mudar o significado
+de elementos sintáticos de um dialeto.
+As seguintes diretivas especificam o dialeto utilizado neste guia.
+Ele corresponde ao dialeto da aplicação padrão do Lazarus (a interface gráfica):   
+```pascal
+// diretivas incluidas por padrão nos módulos criados pelo Lazarus
+{$MODE ObjFPC}   // habilita a sintaxe de orientação ao objeto
+{$H+}            // Torna o tipo String um apelido para o tipo AnsiString
+
+// diretivas não incluidas por padrão nos arquivos, mas passadas por padrão pelo Lazarus ao compilador  
+{$COPERATORS ON} // habilita os operadores +=, -=, *= e /=
+{$GOTO ON}       // habilita as palavras-chave label e goto
+{$INLINE ON}     // habilita a declaração de procedimentos inline
+```
+
 
 ### O formato dos arquivos
 
@@ -1336,8 +1414,7 @@ type
     procedure SetVisible(Value: Boolean); override;
   public
     // para declarar o evento comportamental
-    // escreva:
-    // property OnVisibilityChange : TBehavioralEvent;
+    // escreva "property OnVisibilityChange : TBehavioralEvent;"
     // e em seguida aperte CTRL+SHIFT+C
     // a propriedade será declarada automaticamente
     property OnVisibilityChange : TBehavioralEvent read FOnVisibilityChange write SetOnVisibilityChange;
@@ -1441,6 +1518,7 @@ uses TabDelimitedReport, Timestamps, Behavior.Events;
 { TForm1 }
 
 
+// o que acontece quando a janela principal for criada?
 procedure TForm1.FormCreate(Sender: TObject);
 begin
   // cria o estímulo antecedente com cor preta
@@ -1468,6 +1546,7 @@ begin
   StimulusAntecedent.Show;
 end;
 
+// o que acontece quando a janela principal for destruida?
 procedure TForm1.FormDestroy(Sender: TObject);
 begin
   // registra o final de acordo com a hora local
