@@ -3,7 +3,7 @@
   # ruby
   # https://github.com/postmodern/ruby-install#readmes
   # https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.3.tar.gz
-  ruby-install ruby 2.2.3
+  ruby-install ruby 2.2.5
 
   # ~/.bashrc
   # export PATH="/home/rafael/.rubies/ruby-2.2.3/bin:$PATH"
@@ -11,10 +11,10 @@
   # install ruby gems
   cd ~
   cd Downloads/
-  wget https://rubygems.org/rubygems/rubygems-2.6.7.tgz
-  tar xvf rubygems-2.6.7.tgz
-  cd rubygems-2.6.7
-  sudo ruby setup.rb
+  wget https://rubygems.org/rubygems/rubygems-2.6.12.tgz
+  tar xvf rubygems-2.6.12.tgz
+  cd rubygems-2.6.12
+  ruby setup.rb
 
   # install bundler gem
   gem install bundler
