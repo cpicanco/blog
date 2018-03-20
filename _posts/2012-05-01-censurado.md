@@ -4,6 +4,7 @@ title: Censurado
 tags: ['poema', 'amor']
 excerpt: 'coerência e prazer'
 language: pt-BR
+private: true
 copyright: <!--Copyright (c) 2015-2016 Carlos Rafael Fernandes Picanço-->
 ---
 Censurado
