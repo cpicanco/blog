@@ -5,7 +5,7 @@ tags: ['ciência', 'programação']
 excerpt: 'Introdução ao desenvolvimento de interfaces gráficas com Lazarus e Free Pascal'
 language: pt-BR
 private: False
-copyright: <!--Copyright (c) 2017 Carlos Rafael Fernandes Picanço.-->
+copyright: <!--Copyright (c) 2018 Carlos Rafael Fernandes Picanço.-->
 ---
 ## O objetivo deste capítulo é:
 
