@@ -103,7 +103,7 @@ Este guia fará referência aos nomes dos controles da interface Lazarus tal com
 Ao executar o Lazarus pela primeira vez (por meio do comando “startlazarus” em sistemas Linux), uma aplicação (programa com uma interface gráfica) é criada automaticamente. Execute a aplicação pressionando F9 (Executar). Essa aplicação padrão é uma janela flutuante (ou formulário) com funcionalidades básicas como fechar, minimizar, maximizar, restaurar, mover, redimensionar, entre outras. Essa janela (ver Figura 1, janela 4) também já vem preparada para receber eventos como aqueles produzidos por mouse e teclado.
 
 <p>
-<img class="img-fluid center-block"
+<img class="img-responsive center-block"
        src="/media/blog/laz_fpc_ac_intro/Figure1.jpg"
        alt="Janelas Utilizadas neste guia." />
 </p>
