@@ -7,6 +7,20 @@ language: pt-BR
 private: False
 copyright: <!--Copyright (c) 2018 Carlos Rafael Fernandes Picanço.-->
 ---
+## Como citar esse trabalho?
+
+O presente trabalho é uma versão de um capítulo da obra "Introdução ao desenvolvimento de softwares para analistas do comportamento", E-book gratuito, download completo disponível em: [httpp://abpmc.org.br/publicacoes.php?inf=14](httpp://abpmc.org.br/publicacoes.php?inf=14)
+
+Cite a versão do livro assim:
+
+> Picanço, C. R. F. (2018). Introdução ao desenvolvimento de interfaces gráficas com Lazarus e Free Pascal. Em H. B. Neves Filho, L. A. B. Freitas & N. C. C. Quinta (Orgs.). Introdução ao desenvolvimento de softwares para analistas do comportamento (pp. 33-88). Campinas: ABPMC.
+
+Cite esta versão assim:
+
+> Picanço, C. R. F. (21 de março de 2018). Introdução ao desenvolvimento de interfaces gráficas com Lazarus e Free Pascal.[Blog]. Recuperado de: http://blog.rafael.picanco.nom.br/2017/08/15/object-pascal.html
+
+Versões anteriores disponíveis no repositório: https://github.com/cpicanco/blog/
+
 ## O objetivo deste capítulo é:
 
 - Informar o leitor ou leitora sobre a existência de diferentes dialetos derivados do Pascal.
