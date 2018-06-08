@@ -1,0 +1,38 @@
+---
+layout: Post
+title: 'Observação humana'
+tags: ['ciência', 'resenha']
+excerpt: 'Anotações'
+language: pt-BR
+private: False
+copyright: <!--Copyright (c) 2017 Carlos Rafael Fernandes Picanço.-->
+---
+Holland, J. G. (1957). Technique for Behavioral Analysis of Human Observing. Science, 125(3243), 348–350. https://doi.org/10.1126/science.125.3243.348-a
+
+___
+
+No momento da publicação, o autor trabalhava para o laboratório de pesquisa naval das forças armadas. Ilustra uma técnica de registro de respostas de observação. Em uma sala escura, participantes eram requisitados a registrar momentos nos quais um ponteiro desviava em um mostrador. Os ponteiros só podiam ser vistos quando um botão era apertado, pois ao apertar (resposta de observação) uma luz acendia por 0.7 s. Os desvios do ponteiro ocorriam de acordo com esquemas de intervalo fixo. Documenta respostas de observação com regularidade idêntica àquela de respostas com comida como reforçador nos estudos com animais não humanos. Porque as regularidades eram idênticas, sugere que deve ser possível desenvolver e adotar esquemas de reforço que moldariam respostas de observação na forma desejada por questões práticas, tornando possível a engenharia de tarefas de monitoramento e inspeção afim de que o comportamento do operador fosse moldado de tal maneira que sistemas homem-máquina superiores seriam providenciados.
+
+___
+
+Holland, J. G. (1957). Technique for Behavioral Analysis of Human Observing. Science, 125(3243), 348–350. https://doi.org/10.1126/science.125.3243.348-a
+
+No momento da publicação, o autor trabalhava para o laboratório de pesquisa naval das forças armadas. Ilustra uma técnica de registro de respostas de observação. Em uma sala escura, participantes eram requisitados a registrar momentos nos quais um ponteiro desviava em um mostrador. Os ponteiros só podiam ser vistos quando um botão era apertado, pois ao apertar (resposta de observação) uma luz acendia por 0.7 s. Os desvios do ponteiro ocorriam de acordo com esquemas de intervalo fixo. Documenta respostas de observação com regularidade idêntica àquela de respostas com comida como reforçador nos estudos com animais não humanos. Porque as regularidades eram idênticas, sugere que deve ser possível desenvolver e adotar esquemas de reforço que moldariam respostas de observação na forma desejada por questões práticas, tornando possível a engenharia de tarefas de monitoramento e inspeção afim de que o comportamento do operador fosse moldado de tal maneira que sistemas homem-máquina superiores seriam providenciados.
+
+___
+
+Holland, J. G. (1958). Human Vigilance: The rate of observing an instrument is controlled by the schedule of signal detections. Science, 128(3315), 61–67. https://doi.org/10.1126/science.128.3315.61
+
+Apresenta a manutenção da eficiência em tarefas perceptuais monótonas como um problema clássico no qual o interesse tem sido sobre o monitoramento de sinais críticos e infrequentes por humanos. Sistemas de defesa aérea exigem que seus operadores procurem infrequentes inimigos no alcance de radares. A maior automação exige humanos monitorando equipamento que raramente pode falhar. Inspeção em linhas de produção também representa uma situação onde sinais são relativamente infrequentes. Refere-se a trabalhos nos quais há decréscimo na detecção de sinais com o passar do tempo, ou aumento da variância de detecções sem decréscimo, ou aumento da variância da latência sem decréscimo.
+
+___
+
+Kaplan, I. T., & Schoenfeld, W. N. (1966). Oculomotor patterns during the solution of visually displayed anagrams. Journal of Experimental Psychology, 72(3), 447–451. https://doi.org/10.1037/h0023632
+
+Investiga um fenômeno de generalização, primeiramente reportado por Rees e Israel (1935), no qual uma tendência de aplicar um método surge após um participante ter resolvido diferentes problemas por meio desse método. O estudo possui condições semelhantes àquelas reportadas por estudos sobre aprender a aprender. Apresenta condições nas quais anagramas podiam ser resolvidos por meio da padrões de movimentos oculares, fixando o olhar em localizações fixas de um mostrador e alternando o olhar na mesma ordem. Fixar e alternar o olhar não eram explicitamente requisitados, mas eram esperados. Os vinte primeiros anagramas possuiam um padrão, os dez seguintes outro padrão e os dez seguintes ainda outro padrão. Reporta padrões de movimentos oculares (fixações e macrosacadas) ao longo da resolução dos anagramas, inclusive ocasiões nas quais respostas corretas sucediam fixações dispostas com ordem diferente do padrão apresentado. Reporta que dois participantes embora tenham solucionado os problemas em média com o mesmo tempo, um deles era capaz de descrever as regras dos padrões subjacentes e outro não; aquele que era capaz também mostrou fixações de acordo com os padrões, mas o outro não. Afirma que movimentos oculares são os mais precisos em termos de aplicabilidade em tentativas discretas e os mais informativos em termos de atividade durante o processo de solução de problemas. Constata que soluções ocorrem tanto com movimentos oculares ajustados quanto não ajustados às regras planejadas. No primeiro caso, o comportamento ocular é suficiente para explicar a solução do problema. No segundo caso não, sugerindo que outro comportamento deve ser buscado. Em ambos os casos, sugere que o constructo hipotético internalista de um "conjunto mental" pode ser substituido por definições comportamentais e externalitas ao explicar o fenômeno da generalização/tendência.
+
+___
+
+Schroeder, S. R., & Holland, J. G. (1968). Operant control of eye movements. Journal of Applied Behavior Analysis, 1(2), 161–166. https://doi.org/10.1901/jaba.1968.1-161
+
+Registra o olhar (alternar fixações) sobre mostradores com ponteiros conjuntamente com apertar um botão. A movimentação dos ponteiro (sinal) era controlada por esquemas (DRL, VI e FR). A pressão ao botao era tomada como detecção do sinal e pode ser entendida como uma espécie de resposta de consumação, i. e., ela resetava os ponteiros para o estado inicial sem movimento. Fixar o olhar dentro dos quatro ponteiros contabilizava uma resposta de observação. Entretanto, as figuras mostram taxa de fixações. Conclui que o olhar se ajustaram aos esquemas planejados e que isso possui implicações para pesquisas sobre atenção. Sugere que a atenção pode ser diretamente mensurada por meio de medidas derivadas dos moviementos oculares.

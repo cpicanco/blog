@@ -6,8 +6,10 @@ excerpt: 'Petursdottir, Peterson & Lepper (2015)'
 language: pt-BR
 copyright: <!--Copyright (c) 2015-2016 Carlos Rafael Fernandes Picanço.-->
 ---
-Petursdottir, A. I., Carp, C. L., Peterson, S. P., & Lepper, T. L. (2015). Emergence of visual–visual conditional discriminations following intraverbal training. Journal of the Experimental Analysis of Behavior, 103, 332–348.
+Petursdottir, A. I., Carp, C. L., Peterson, S. P., & Lepper, T. L. (2015). Emergence of visual–visual conditional discriminations following intraverbal training. Journal of the Experimental Analysis of Behavior, 103, 332–348.   
+
 ___
+
 
 Afirma que ora a literatura tem sugerido que:
 
