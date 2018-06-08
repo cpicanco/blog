@@ -5,8 +5,22 @@ tags: ['ciência', 'programação']
 excerpt: 'Introdução ao desenvolvimento de interfaces gráficas com Lazarus e Free Pascal'
 language: pt-BR
 private: False
-copyright: <!--Copyright (c) 2017 Carlos Rafael Fernandes Picanço.-->
+copyright: <!--Copyright (c) 2018 Carlos Rafael Fernandes Picanço.-->
 ---
+## Como citar esse trabalho?
+
+O presente trabalho é uma versão de um capítulo da obra "Introdução ao desenvolvimento de softwares para analistas do comportamento", E-book gratuito, download completo disponível em: [http://abpmc.org.br/publicacoes.php?inf=14](http://abpmc.org.br/publicacoes.php?inf=14)
+
+Cite a versão do livro assim:
+
+> Picanço, C. R. F. (2018). Introdução ao desenvolvimento de interfaces gráficas com Lazarus e Free Pascal. Em H. B. Neves Filho, L. A. B. Freitas & N. C. C. Quinta (Orgs.). Introdução ao desenvolvimento de softwares para analistas do comportamento (pp. 33-88). Campinas: ABPMC.
+
+Cite esta versão assim:
+
+> Picanço, C. R. F. (21 de março de 2018). Introdução ao desenvolvimento de interfaces gráficas com Lazarus e Free Pascal [Blog]. Recuperado de: http://blog.rafael.picanco.nom.br/2017/08/15/object-pascal.html
+
+Versões anteriores disponíveis no repositório: https://github.com/cpicanco/blog/
+
 ## O objetivo deste capítulo é:
 
 - Informar o leitor ou leitora sobre a existência de diferentes dialetos derivados do Pascal.
@@ -89,7 +103,7 @@ Este guia fará referência aos nomes dos controles da interface Lazarus tal com
 Ao executar o Lazarus pela primeira vez (por meio do comando “startlazarus” em sistemas Linux), uma aplicação (programa com uma interface gráfica) é criada automaticamente. Execute a aplicação pressionando F9 (Executar). Essa aplicação padrão é uma janela flutuante (ou formulário) com funcionalidades básicas como fechar, minimizar, maximizar, restaurar, mover, redimensionar, entre outras. Essa janela (ver Figura 1, janela 4) também já vem preparada para receber eventos como aqueles produzidos por mouse e teclado.
 
 <p>
-<img class="img-fluid center-block"
+<img class="img-responsive center-block"
        src="/media/blog/laz_fpc_ac_intro/Figure1.jpg"
        alt="Janelas Utilizadas neste guia." />
 </p>
