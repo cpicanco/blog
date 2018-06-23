@@ -48,7 +48,7 @@ De fato, o conteúdo de obras literárias, como aquelas citadas no excerto anter
 
 ### Referências
 
-Cyber blue (2008, 18 de junho). *Sobre a paixão*. Acesso em 27 de junho de 2008, em http://blogdahannah.blogspot.com/2008/06/sobre-paixo.html
+Cyber blue (2008, 18 de junho). *Sobre a paixão*. Acesso em 23 de junho de 2018, em http://cyberbluestar.blogspot.com/2008/06/sobre-paixo.html
 
 Dittrich, A. (2004). Behaviorismo Radical, ética e política: aspectos teóricos do compromisso social. *Tese de doutorado*. Universidade Federal de São Carlos. São Carlos, São Paulo.
 
