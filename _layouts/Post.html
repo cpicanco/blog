@@ -4,7 +4,7 @@
 {% if page.image != null %}
   {% capture IMAGE %}{{ site.url}}/media/blog/{{ page.image }}{% endcapture %}
 {% else %}
-  {% capture IMAGE %}{{ site.url }}/media/blog/in-flagellis-clean-{{ page.language }}.png{% endcapture %}
+  {% capture IMAGE %}{{ site.url }}/media/blog/in-flagellis-clean-{{page.language | downcase}}.png{% endcapture %}
 {% endif %}
 
 {% include blog_head.html share-image=IMAGE %}
