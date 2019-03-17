@@ -31,7 +31,7 @@ nesse momento... presumo
 que essa tua indiferença   
 orienta o meu caminho   
 para fora das amarras   
-estéres do teu prazer
+estéres do teu prazer   
 fingindo não me importar   
 com a mobília e a segurança   
 tutu, saudade e amanhã.
