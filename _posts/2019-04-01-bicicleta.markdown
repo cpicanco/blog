@@ -37,7 +37,7 @@ Sem um tostão de gentileza?
 Sem maresia e destreza?   
 Só aroma de amendoim?   
 Já vestiu-se, agora aguarda.   
-Pensa em nada, vai na estrada.
+Pensa em nada, vai na estrada.   
 Pedalando vai, voou...   
 num caminho decorado,   
 meio torto, transviado,   
@@ -60,7 +60,7 @@ nem carona na garupa,
 nem volume na calçada,   
 nem pedido com nanquim.   
 Que ninguém jamais notou   
-sua tristeza restaurada,
+sua tristeza restaurada,   
 sua saudade devastada,   
 nem sentiu-lhe até o fim.   
 nem sentiu-lhe até o fim.   
