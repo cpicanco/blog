@@ -59,9 +59,9 @@ Que a ninguém jamais dará
 nem carona na garupa,   
 nem volume na calçada,   
 nem pedido com nanquim.   
-Que ninguém jamais notou   
-sua tristeza restaurada,   
-sua saudade devastada,   
+Que ninguém jamais notou-lhe   
+a tristeza restaurada,   
+a saudade devastada,   
 nem sentiu-lhe até o fim.   
 nem sentiu-lhe até o fim.   
 
