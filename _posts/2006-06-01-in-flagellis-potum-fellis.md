@@ -29,8 +29,8 @@ _
 
 Sob chibatadas bebeu fel  
 bebida amarguíssima  
-toda gente comtempla  
-toda gente comtempla  
+toda gente contempla  
+toda gente contempla  
 tua morte sofrida.  
 Dê poder e segurança,  
 dê poder e segurança,  
