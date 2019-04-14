@@ -2,7 +2,7 @@
 layout: Post
 title: 'Desconhecidos'
 tags: ['conto', 'fantástico']
-excerpt: 'pedalar, guidon, garupa'
+excerpt: 'olhares indiferentes'
 language: pt-BR
 private: False
 image: spirit-away.jpg
