@@ -7,7 +7,7 @@
   # ~/.bashrc
   # export PATH="~/.rubies/ruby-2.6.2/bin:$PATH"
   # close terminal
-  
+
   # install ruby gems
   cd ~
   cd Downloads/
@@ -16,39 +16,37 @@
   cd rubygems-3.0.3
   ruby setup.rb
 
-  # install bundler gem
-  gem install bundler
-
-  # install github pages/jekyll
+  # if necessary, install bundler gem
+  # gem install bundler
   # https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
+  
+  # install the website
   cd ~
   cd git/
-  git clone https://github.com/cpicanco/cpicanco.github.io.git
-  cd cpicanco.github.io  
+  git clone git@github.com:cpicanco/blog.git
+  cd blog
   bundle install
 
-  # install npm
-  sudo apt-get install npm
 
-  # grunt
-  sudo npm install -g grunt-cli
-  ln -s /usr/bin/nodejs /usr/bin/node #ubuntu
+  # Optional
+
+    # install npm (optional)
+    sudo apt-get install npm
+
+    # grunt (optional)
+    sudo npm install -g grunt-cli
+    ln -s /usr/bin/nodejs /usr/bin/node #ubuntu
   
-  # libZotero
-  sudo pip install libZotero
+    # libZotero (optional)
+    sudo pip install libZotero
 
-  # citeproc-py
-  sudo apt-get install python-lxml python3-lxml
-  sudo pip install citeproc-py
+    # citeproc-py (optional)
+    sudo apt-get install python-lxml python3-lxml
+    sudo pip install citeproc-py
 
-  # the repository
-  git clone https://github.com/cpicanco/cpicanco.github.io.git
-
-  # grunt dependencies
-  cd cpicanco.github.io
-
-  # grunt dependencies
-  npm install
+    # grunt dependencies (optional)
+    cd ~/git/blog
+    npm install
 
 # tasks
   # minify when necessary
