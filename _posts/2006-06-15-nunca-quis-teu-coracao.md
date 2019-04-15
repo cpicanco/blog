@@ -10,7 +10,7 @@ Nunca quis teu coração
 
 Nunca quis a eternidade,   
 basta-me a longevidade   
-Sempre quis que o tal Bocage  
+Sempre quis que o tal Bocage   
 me ensinasse a lhe dizer   
 tudo aquilo que eu calado,   
 preto, sujo e desalmado,   
