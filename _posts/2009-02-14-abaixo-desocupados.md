@@ -1,6 +1,6 @@
 ---
 layout: Post
-title: 'Abaixo ao punheteiros desocupados'
+title: 'Abaixo aos punheteiros desocupados'
 tags: ['escatologia']
 excerpt: 'filosofia de boteco'
 language: pt-BR
