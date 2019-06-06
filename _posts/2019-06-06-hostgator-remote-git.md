@@ -95,7 +95,7 @@ chmod +x CAMINHO_COMPLETO/.git/hooks/post-receive
 Após deslogar do servidor, mude o diretório para o local do seu repositório local:
 
 ```
-cd ~/justinlee/public/
+cd ~/seu-repositório
 git remote add hostgator ssh://USUARIO-HOSTGATOR@DOMINIO-HOSTGATOR:2222/CAMINHO-COMPLETO/subdominio.dominio.com.br
 ```
 
