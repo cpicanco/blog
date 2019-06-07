@@ -70,7 +70,7 @@ git config --add receive.denyCurrentBranch ignore
 
 ## Passo 5 - Configure o repositório para fazer o checkout automaticamente
 
-Quando o repositório receve um comando push feito por vocêde uma máquina local, o repositório deve fazer o checkout. 
+Quando o repositório recebe um comando push feito por você de uma máquina local, o repositório deve fazer o checkout. 
 
 Para isso salve o seguinte comando:
 
