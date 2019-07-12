@@ -81,28 +81,54 @@ GIT_WORK_TREE=../ git checkout -f
 No seguinte arquivo:
 
 ```
-CAMINHO_COMPLETO/.git/hooks/post-receive
+CAMINHO_COMPLETO/subdominio.dominio.com.br/.git/hooks/post-receive
 ```
 
 E torne-o um executável:
 
 ```
-chmod +x CAMINHO_COMPLETO/.git/hooks/post-receive
+chmod +x CAMINHO_COMPLETO/subdominio.dominio.com.br/.git/hooks/post-receive
 ```
 
-## Passo 6 - Configure o seu repositório local
+## Passo 6 - Configure as credenciais de seu git remoto
 
-Após deslogar do servidor, mude o diretório para o local do seu repositório local:
-
+Configure o email e nome de usuário:
 ```
-cd ~/seu-repositório
+git config --global user.email "seu.nome@email.com"
+git config --global user.name "Seu Nome"
+```
+## Passo 7 - Alimente o seu repositório remoto
+
+Faça `add` e `commit` de algo no seu repositório:
+```
+git add --all
+git commit -m "first commit inside my hostgator server"
+```
+## Passo 8 - Deslogue do servidor
+
+Execute:
+```
+exit
+```
+
+## Passo 9 - Configure o seu repositório local
+
+Após deslogar do servidor, você pode clonar o seu repositório assim:
+```
+git clone ssh://USUARIO-HOSTGATOR@DOMINIO-HOSTGATOR:2222/CAMINHO-COMPLETO/subdominio.dominio.com.br
+```
+
+Você pode adicionar `hostgator` como um apelido para o seu novo repositório ssh:
+```
+cd ~/subdominio.dominio.com.br
 git remote add hostgator ssh://USUARIO-HOSTGATOR@DOMINIO-HOSTGATOR:2222/CAMINHO-COMPLETO/subdominio.dominio.com.br
 ```
 
-Pronto! Agora você pode fazer pushes diretamente para o seu servidor no hostgator! 
+Você pode fazer enviar e receber diretamente para o seu servidor no hostgator! 
 
 ```
 git push hostgator
+git pull hostgator
 ```
 
 Tudo estará no ar rapidamente, pois o git é super rápido!
