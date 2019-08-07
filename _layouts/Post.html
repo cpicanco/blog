@@ -11,6 +11,7 @@
 
 {% capture PAGE_PATH %}/{{ page.language | downcase }}/{% endcapture %}
   <body>
+   {% include gtag.html %} 
    {% include blog_nav.html home-path=PAGE_PATH %}   
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
