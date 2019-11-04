@@ -10,7 +10,6 @@ copyright: <!--Copyright (c) 2019 Carlos Rafael Fernandes Picanço.-->
 
 **Gaiola de ouro**
 
-
 Tinham tudo para ser um casal.
 Só não sabiam o que fazer com tudo isso para ser o casal que desejavam ser.
 E não desejavam o impossível, como algumas pessoas insistem em fazer.
@@ -23,8 +22,8 @@ aqueles seres que nunca viriam a ser um casal dormiam lado a lado,
 em silêncio, em uma paz forjada pelo efeito de anestésicos.
 E acordavam dizendo, as vezes, tudo o que não viviam, mas gostariam de viver:
 
-- Bom dia amor da minha vida.   
-- Bom dia meu bem.
+"Bom dia amor da minha vida."   
+"Bom dia, meu bem."
 
 Um beijo na testa encerrava a mais profunda frieza.
 Ali mesmo o dia já havia acabado.
