@@ -15,7 +15,7 @@ Só não sabiam o que fazer com tudo isso para ser o casal que desejavam ser.
 E não desejavam o impossível, como algumas pessoas insistem em fazer.
 E justamente por desejarem o possível sofriam e sofriam diante do dever.
 Ora, se algo é possível, por que não tentar?
-Acontece que, ao sofrer, o possível tornava-se inalcansável.
+Acontece que, ao sofrer, o possível tornava-se inalcançável.
 Por razões invioláveis, como o próprio tempo, estariam fadados a buscar o possível no ritmo errado.
 Transtornados pelos próprios pensamentos suicidas,
 aqueles seres que nunca viriam a ser um casal dormiam lado a lado,
