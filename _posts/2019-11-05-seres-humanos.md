@@ -1,3 +1,13 @@
+---
+layout: Post
+title: 'Seres humanos'
+tags: ['sexualidade']
+excerpt: 'olhar retribuído'
+language: pt-BR
+private: False
+copyright: <!--Copyright (c) 2019 Carlos Rafael Fernandes Picanço.-->
+---
+
 **Seres humanos**
 
 Curiosos e temerosos, desviam a todo momento o olhar do olhar uns dos outros.
