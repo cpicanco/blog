@@ -328,7 +328,7 @@ Eu resolvi o problema seguindo o passo a passo deste link:</p>
                     twttr.widgets.load(this);
                     $(this).addClass("share-enabled");
                   } else {  // will load all #tw-root, and it sucks
-                    $.getScript('http://platform.twitter.com/widgets.js');
+                    $.getScript('https://platform.twitter.com/widgets.js');
                     $(this).addClass("share-enabled");
                   }
                 }
@@ -384,6 +384,7 @@ Eu resolvi o problema seguindo o passo a passo deste link:</p>
             facebookHover("#fb-root");
           });
         </script>
+
     <!-- Highlight.js -->
   <script src="/js/highlight-pack.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
