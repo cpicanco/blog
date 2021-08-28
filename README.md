@@ -1,6 +1,6 @@
 ## blog.rafael.picanco.nom.br
 
-[![Build Status](https://travis-ci.org/cpicanco/blog.svg?branch=master)](https://travis-ci.org/cpicanco/blog)
+![GitHub Actions](https://github.com/cpicanco/blog/actions/workflows/jekyll.yml/badge.svg)
 
 This site uses [Bootstrap](http://getbootstrap.com/)!
  - it is awesome!
