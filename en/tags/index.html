@@ -1,0 +1,3579 @@
+<!--Copyright (c) 2015-2016 Carlos Rafael Fernandes Picanço.-->
+<!--
+other credits
+
+Hossain Mohd Faysal
+http://stackoverflow.com/questions/20945944/jekyll-liquid-output-category-list-with-post-count
+
+Christian Specht
+http://stackoverflow.com/questions/8991995/using-liquid-to-sort-posts-alphabetically
+
+-->    
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<!-- Head -->
+  
+
+  
+
+  
+
+  <head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59877002-2"></script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M3ZGK8V');</script>
+    <!-- End Google Tag Manager -->    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Thoughts on , posted by Rafael Picanço, behavioral scientist enthusiastic programmer and freelance drummer.">
+  
+    <!-- Open Graph meta tags -->
+    <meta property="og:title" content="In Flagellis. | Categories">
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="Thoughts on , posted by Rafael Picanço, behavioral scientist enthusiastic programmer and freelance drummer.">
+    <meta property="og:url" content="http://blog.rafael.picanco.nom.br/en/tags/">
+    <meta property="og:image" content="http://blog.rafael.picanco.nom.br/media/blog/in-flagellis-clean-en.png">
+    <meta property="og:image:width" content="613">
+    <meta property="og:image:height" content="448">
+  
+    <meta property="og:locale" content="en_US">
+  
+    <meta property="og:site_name" content="In Flagellis.">
+    <meta property="fb:profile_id" content="1651005333">
+    <meta property="fb:app_id" content="302184056577324">
+
+    <!-- Twitter Card properties -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="In Flagellis. | Categories">
+    <meta name="twitter:creator" content="@crpicanco">
+    <meta name="twitter:description" content="Thoughts on , posted by Rafael Picanço, behavioral scientist enthusiastic programmer and freelance drummer.">
+    <meta name="twitter:image" content="http://blog.rafael.picanco.nom.br/media/blog/in-flagellis-clean-en.png">
+    <meta name="twitter:image:width" content="613">
+    <meta name="twitter:image:height" content="448">
+    
+    <title>In Flagellis. | Categories</title>
+
+    <link rel="image_src" href="http://blog.rafael.picanco.nom.br/media/blog/in-flagellis-clean-en.png" >
+    <link rel="canonical" href="http://blog.rafael.picanco.nom.br/en/tags/">
+    <link rel="icon" href="/media/favicon.ico">
+    <!-- Bootstrap core CSS -->
+    <!-- Custom CSS -->
+    <!-- Highlight.js --> 
+    <link href="/css/blog-styles.concat.css" rel="stylesheet">
+    <!-- Custom Fonts -->   
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  </head>
+
+
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M3ZGK8V"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            
+              <span class="sr-only">Toggle navigation</span>
+            
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+
+          </button>
+          
+            <a class="navbar-brand" href="http://portfolio.rafael.picanco.nom.br/en/projects.html">&middot;&#32;Portfolio</a>
+                  
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            
+              
+                <li><a href="#">See All Categories</a></li>
+                <li><a href="/pt-br/tags/">Português</a></li>
+
+              
+
+              <li><a href="/en/">Home</a></li>
+              <li><a href="#about">About</a></li>
+
+            
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>
+
+    <header class="intro-header" style="background-color:#153038;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="tags-heading">
+              <h1>Categories</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Tag Ordering -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2 col-lg-offset-2 col-md-2 col-md-offset-2 col-xs-6 col-sm-3 col-sm-offset-1">
+          A .. Z
+          <hr>
+    
+
+     
+          <ul class="list-inline">
+            <li><a href="#amor"><span class="badge">amor</span><span class="badge badge-n">24</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#candidez"><span class="badge">candidez</span><span class="badge badge-n">1</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#ciência"><span class="badge">ciência</span><span class="badge badge-n">16</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#comentário"><span class="badge">comentário</span><span class="badge badge-n">1</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#conto"><span class="badge">conto</span><span class="badge badge-n">3</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#cotidiano"><span class="badge">cotidiano</span><span class="badge badge-n">2</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#determinismo"><span class="badge">determinismo</span><span class="badge badge-n">1</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#diálogo"><span class="badge">diálogo</span><span class="badge badge-n">2</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#ensaio"><span class="badge">ensaio</span><span class="badge badge-n">1</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#escatologia"><span class="badge">escatologia</span><span class="badge badge-n">6</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#familia"><span class="badge">familia</span><span class="badge badge-n">1</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#fantástico"><span class="badge">fantástico</span><span class="badge badge-n">1</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#fé"><span class="badge">fé</span><span class="badge badge-n">5</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#heptassílabo"><span class="badge">heptassílabo</span><span class="badge badge-n">16</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#linguagem"><span class="badge">linguagem</span><span class="badge badge-n">1</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#machismo"><span class="badge">machismo</span><span class="badge badge-n">1</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#markdown"><span class="badge">markdown</span><span class="badge badge-n">2</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#música"><span class="badge">música</span><span class="badge badge-n">2</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#negritude"><span class="badge">negritude</span><span class="badge badge-n">1</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#notas"><span class="badge">notas</span><span class="badge badge-n">1</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#passo a passo"><span class="badge">passo a passo</span><span class="badge badge-n">3</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#pergunta"><span class="badge">pergunta</span><span class="badge badge-n">1</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#poema"><span class="badge">poema</span><span class="badge badge-n">65</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#programação"><span class="badge">programação</span><span class="badge badge-n">4</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#programming"><span class="badge">programming</span><span class="badge badge-n">1</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#prosa"><span class="badge">prosa</span><span class="badge badge-n">1</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#quadrinho"><span class="badge">quadrinho</span><span class="badge badge-n">5</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#republicação"><span class="badge">republicação</span><span class="badge badge-n">1</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#repudiante"><span class="badge">repudiante</span><span class="badge badge-n">1</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#resenha"><span class="badge">resenha</span><span class="badge badge-n">4</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#science"><span class="badge">science</span><span class="badge badge-n">1</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#sexo"><span class="badge">sexo</span><span class="badge badge-n">7</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#sexualidade"><span class="badge">sexualidade</span><span class="badge badge-n">2</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#software"><span class="badge">software</span><span class="badge badge-n">2</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#subjetividade"><span class="badge">subjetividade</span><span class="badge badge-n">1</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#tecnologia"><span class="badge">tecnologia</span><span class="badge badge-n">1</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#terror psicológico"><span class="badge">terror psicológico</span><span class="badge badge-n">1</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#tradução"><span class="badge">tradução</span><span class="badge badge-n">1</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#vida"><span class="badge">vida</span><span class="badge badge-n">1</span></a></li>
+          </ul>
+     
+          <ul class="list-inline">
+            <li><a href="#web design"><span class="badge">web design</span><span class="badge badge-n">6</span></a></li>
+          </ul>
+    
+
+          <hr>
+        </div>
+
+
+        <div class="col-lg-2 col-lg-offset-3 col-md-2 col-md-offset-3 col-xs-6 col-sm-3 col-sm-offset-3">
+          >
+           <hr>
+
+    
+
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+       <!-- atag = [] -->
+       <!-- atag.append(size) -->
+       <!-- atag.append(name) -->
+      
+    
+
+    
+
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#poema"><span class="badge badge-n">65</span><span class="badge">poema</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#amor"><span class="badge badge-n">24</span><span class="badge">amor</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#heptassílabo"><span class="badge badge-n">16</span><span class="badge">heptassílabo</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#ciência"><span class="badge badge-n">16</span><span class="badge">ciência</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#sexo"><span class="badge badge-n">7</span><span class="badge">sexo</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#web design"><span class="badge badge-n">6</span><span class="badge">web design</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#escatologia"><span class="badge badge-n">6</span><span class="badge">escatologia</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#quadrinho"><span class="badge badge-n">5</span><span class="badge">quadrinho</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#fé"><span class="badge badge-n">5</span><span class="badge">fé</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#resenha"><span class="badge badge-n">4</span><span class="badge">resenha</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#programação"><span class="badge badge-n">4</span><span class="badge">programação</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#passo a passo"><span class="badge badge-n">3</span><span class="badge">passo a passo</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#conto"><span class="badge badge-n">3</span><span class="badge">conto</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#software"><span class="badge badge-n">2</span><span class="badge">software</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#sexualidade"><span class="badge badge-n">2</span><span class="badge">sexualidade</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#música"><span class="badge badge-n">2</span><span class="badge">música</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#markdown"><span class="badge badge-n">2</span><span class="badge">markdown</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#diálogo"><span class="badge badge-n">2</span><span class="badge">diálogo</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#cotidiano"><span class="badge badge-n">2</span><span class="badge">cotidiano</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#vida"><span class="badge badge-n">1</span><span class="badge">vida</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#tradução"><span class="badge badge-n">1</span><span class="badge">tradução</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#terror psicológico"><span class="badge badge-n">1</span><span class="badge">terror psicológico</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#tecnologia"><span class="badge badge-n">1</span><span class="badge">tecnologia</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#subjetividade"><span class="badge badge-n">1</span><span class="badge">subjetividade</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#science"><span class="badge badge-n">1</span><span class="badge">science</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#repudiante"><span class="badge badge-n">1</span><span class="badge">repudiante</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#republicação"><span class="badge badge-n">1</span><span class="badge">republicação</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#prosa"><span class="badge badge-n">1</span><span class="badge">prosa</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#programming"><span class="badge badge-n">1</span><span class="badge">programming</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#pergunta"><span class="badge badge-n">1</span><span class="badge">pergunta</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#notas"><span class="badge badge-n">1</span><span class="badge">notas</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#negritude"><span class="badge badge-n">1</span><span class="badge">negritude</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#machismo"><span class="badge badge-n">1</span><span class="badge">machismo</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#linguagem"><span class="badge badge-n">1</span><span class="badge">linguagem</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#fantástico"><span class="badge badge-n">1</span><span class="badge">fantástico</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#familia"><span class="badge badge-n">1</span><span class="badge">familia</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#ensaio"><span class="badge badge-n">1</span><span class="badge">ensaio</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#determinismo"><span class="badge badge-n">1</span><span class="badge">determinismo</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#comentário"><span class="badge badge-n">1</span><span class="badge">comentário</span></a></li>
+          </ul>
+      
+          <ul class="list-inline">
+            <li><a class="no-deco" href="#candidez"><span class="badge badge-n">1</span><span class="badge">candidez</span></a></li>
+          </ul>
+    
+          <hr>
+        </div>
+      </div>
+
+    <!-- Main Content -->
+    <div class="container" style="padding-top: 4.0em;">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+
+    <div id="amor" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">amor</span>
+        <span class="badge badge-n">24</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2020/01/23/ser-amigo.html"><h2 class="post-title">ser amigo</h2><h3 class="post-subtitle">amar com leveza tudo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;January 23, 2020.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2019/12/28/amor-metodico.html"><h2 class="post-title">Amor metódico</h2><h3 class="post-subtitle">conquista</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;December 28, 2019.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2019/03/17/n%C3%A3o-quero-mais.html"><h2 class="post-title">Não quero mais</h2><h3 class="post-subtitle">Conflitos e Insegurança</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;March 17, 2019.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/09/18/o-escritor.html"><h2 class="post-title">O escritor</h2><h3 class="post-subtitle">coisas de amor</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;September 18, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/07/02/e-possivel-uma-subjetividade-que-nao-se-preste-ao-conhecimento.html"><h2 class="post-title">É possível uma subjetividade que não se preste ao conhecimento?</h2><h3 class="post-subtitle">subjetividade, conhecimento e segredos</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;July 2, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2014/06/14/esquiva.html"><h2 class="post-title">Esquiva</h2><h3 class="post-subtitle">paradoxo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 14, 2014.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2014/06/14/amor-platonico.html"><h2 class="post-title">O amor platônico</h2><h3 class="post-subtitle">emoções, phaedo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 14, 2014.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2014/05/29/a-cura.html"><h2 class="post-title">A cura</h2><h3 class="post-subtitle">futurologia sobre o amor</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 29, 2014.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2013/12/30/abaixo-o-amor.html"><h2 class="post-title">Abaixo ao amor fundamentalista</h2><h3 class="post-subtitle">sagrado e imoral</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;December 30, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2013/12/07/amor-merda.html"><h2 class="post-title">Amor suspeito</h2><h3 class="post-subtitle">cautela ao amar</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;December 7, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2013/12/01/amor.html"><h2 class="post-title">É o amor</h2><h3 class="post-subtitle">tempo, rotina, desgaste</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;December 1, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2013/10/07/humano-figado.html"><h2 class="post-title">Entre o humano, um fígado</h2><h3 class="post-subtitle">tempo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;October 7, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2013/05/11/amor.html"><h2 class="post-title">Amor</h2><h3 class="post-subtitle">desejo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 11, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/10/28/coco-amor.html"><h2 class="post-title">Cocô também é amor</h2><h3 class="post-subtitle">preservação do ambiente</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;October 28, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/08/11/papai.html"><h2 class="post-title">Papai</h2><h3 class="post-subtitle">feliz dia dos pais</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;August 11, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/05/01/quero-uma-moeda.html"><h2 class="post-title">Quero uma moeda</h2><h3 class="post-subtitle">candidez</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 1, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/05/01/doentio.html"><h2 class="post-title">Doentio</h2><h3 class="post-subtitle">paranóias de um amor enfermo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 1, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/05/01/censurado.html"><h2 class="post-title">Censurado</h2><h3 class="post-subtitle">coerência e prazer</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 1, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/05/01/amor.html"><h2 class="post-title">Amor</h2><h3 class="post-subtitle">boa companhia</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 1, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/05/01/amor-verdadeiro.html"><h2 class="post-title">Amor verdadeiro</h2><h3 class="post-subtitle">amor, só que não, sexo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 1, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2009/05/22/trabalho-amor-versos-vicio.html"><h2 class="post-title">Trabalho</h2><h3 class="post-subtitle">amor versos vício</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 22, 2009.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2007/06/01/amor-platonico.html"><h2 class="post-title">Ela</h2><h3 class="post-subtitle">amor platônico</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 1, 2007.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2007/03/25/sou.html"><h2 class="post-title">O que sou</h2><h3 class="post-subtitle">amor, sexo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;March 25, 2007.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2007/01/01/amor.html"><h2 class="post-title">Amor</h2><h3 class="post-subtitle">suave, brando</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;January 1, 2007.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="candidez" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">candidez</span>
+        <span class="badge badge-n">1</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2007/01/01/no-campinho.html"><h2 class="post-title">No campinho</h2><h3 class="post-subtitle">infância</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;January 1, 2007.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="ciência" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">ciência</span>
+        <span class="badge badge-n">16</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2017/09/15/nallan-et-al-1986.html"><h2 class="post-title">Identidade como aspecto distintivo (FPE, FNE)</h2><h3 class="post-subtitle">Nallan et al (1986)</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;September 15, 2017.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2017/09/01/holland-1957.html"><h2 class="post-title">Observação humana</h2><h3 class="post-subtitle">Anotações</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;September 1, 2017.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2017/08/15/object-pascal.html"><h2 class="post-title">Object Pascal e Análise do Comportamento</h2><h3 class="post-subtitle">Introdução ao desenvolvimento de interfaces gráficas com Lazarus e Free Pascal</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;August 15, 2017.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2016/05/14/mts-visual-visual-derivado-de-treino-intraverbal.html"><h2 class="post-title">MTS visual-visual derivado de treino intraverbal</h2><h3 class="post-subtitle">Petursdottir, Peterson & Lepper (2015)</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 14, 2016.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2016/05/13/controle-multiplo-comportamento-verbal.html"><h2 class="post-title">O comportamento verbal sob controle múltiplo</h2><h3 class="post-subtitle">Notas avulsas sobre Michael, Palmer e Sundberg (2011)</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 13, 2016.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2016/03/18/comportamento-adjuntivo-wetherington-1982-resenha.html"><h2 class="post-title">Comportamento adjuntivo (Wetherington, 1982)</h2><h3 class="post-subtitle">respondentes, operantes e adjuntivos?</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;March 18, 2016.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/11/10/sobre-a-fosfoetanolamina.html"><h2 class="post-title">Sobre a fosfoetanolamina</h2><h3 class="post-subtitle">investigações oncológicas derivadas das pesquisas do grupo Chierice</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;November 10, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/09/11/sobre-calouros-analisando-dados.html"><h2 class="post-title">Sobre calouros analisando dados</h2><h3 class="post-subtitle">frustração, tentativa e erro</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;September 11, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/09/09/sobre-desencontros-academicos.html"><h2 class="post-title">Sobre desencontros acadêmicos</h2><h3 class="post-subtitle">os professores e as férias</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;September 9, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/09/08/um-exemplo-concreto-de-regressao-a-media.html"><h2 class="post-title">Um exemplo concreto de regressão a média</h2><h3 class="post-subtitle">o aleatório interferindo dia-a-dia</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;September 8, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/09/06/a-ciencia-como-um-sistema-complexo-competitivo.html"><h2 class="post-title">A ciência como um sistema competitivo contra o fim da humanidade</h2><h3 class="post-subtitle">competição destrutiva vs. competição saudável</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;September 6, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/08/15/tudo-esta-mudando.html"><h2 class="post-title">Tudo está mudando</h2><h3 class="post-subtitle">filosofia de boteco e o devir nas ciências</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;August 15, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/08/12/sobre-o-determinismo-instrumento-evangelizador-ou-cientifico.html"><h2 class="post-title">Sobre o determinismo: instrumento evangelizador ou científico?</h2><h3 class="post-subtitle">filosofia de boteco</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;August 12, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/06/16/saber-ciencia.html"><h2 class="post-title">Saber ciência</h2><h3 class="post-subtitle">as características da ciência</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 16, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/06/12/interagindo-com-esquemas-de-reforcamento.html"><h2 class="post-title">Interagindo com Esquemas de Reforçamento</h2><h3 class="post-subtitle">um protótipo para o ensino de esquemas de reforçamento</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 12, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/06/09/habilidades-uteis-para-ganhar-tempo-na-atividade-cientifica.html"><h2 class="post-title">Informatização e Ciência</h2><h3 class="post-subtitle">habilidades úteis para ganhar tempo na atividade científica</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 9, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="comentário" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">comentário</span>
+        <span class="badge badge-n">1</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2015/09/15/sokera.html"><h2 class="post-title">Sokera</h2><h3 class="post-subtitle">hard, sim, hardcore</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;September 15, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="conto" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">conto</span>
+        <span class="badge badge-n">3</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2014/08/03/desconhecidos.html"><h2 class="post-title">Desconhecidos</h2><h3 class="post-subtitle">olhares indiferentes</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;August 3, 2014.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2014/05/29/a-cura.html"><h2 class="post-title">A cura</h2><h3 class="post-subtitle">futurologia sobre o amor</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 29, 2014.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/05/01/ele-ela.html"><h2 class="post-title">Ele e ela</h2><h3 class="post-subtitle">guerra dos sexos</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 1, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="cotidiano" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">cotidiano</span>
+        <span class="badge badge-n">2</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2015/09/10/sobre-a-pratica-de-apneia-no-ver-o-peso.html"><h2 class="post-title">Sobre a prática de apneia no ver-o-peso</h2><h3 class="post-subtitle">o mercado de peixes de Belém do Pará</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;September 10, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2013/12/08/amizade-profunda-e-erudita.html"><h2 class="post-title">O lado profundo e erudito de uma amizade.</h2><h3 class="post-subtitle">machismo e Lulu app</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;December 8, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="determinismo" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">determinismo</span>
+        <span class="badge badge-n">1</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2015/08/12/sobre-o-determinismo-instrumento-evangelizador-ou-cientifico.html"><h2 class="post-title">Sobre o determinismo: instrumento evangelizador ou científico?</h2><h3 class="post-subtitle">filosofia de boteco</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;August 12, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="diálogo" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">diálogo</span>
+        <span class="badge badge-n">2</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2015/08/12/sobre-o-determinismo-instrumento-evangelizador-ou-cientifico.html"><h2 class="post-title">Sobre o determinismo: instrumento evangelizador ou científico?</h2><h3 class="post-subtitle">filosofia de boteco</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;August 12, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2013/12/08/amizade-profunda-e-erudita.html"><h2 class="post-title">O lado profundo e erudito de uma amizade.</h2><h3 class="post-subtitle">machismo e Lulu app</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;December 8, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="ensaio" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">ensaio</span>
+        <span class="badge badge-n">1</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2015/07/02/e-possivel-uma-subjetividade-que-nao-se-preste-ao-conhecimento.html"><h2 class="post-title">É possível uma subjetividade que não se preste ao conhecimento?</h2><h3 class="post-subtitle">subjetividade, conhecimento e segredos</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;July 2, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="escatologia" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">escatologia</span>
+        <span class="badge badge-n">6</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2015/06/13/a-aflicao-de-nao-estar-do-jeito-que-se-quer.html"><h2 class="post-title">Todo errado</h2><h3 class="post-subtitle">a aflição de não estar do jeito que se quer</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 13, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2014/02/18/o-amor-ofensivo-repudiante.html"><h2 class="post-title">O amor.</h2><h3 class="post-subtitle">ofensivo, repudiante</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;February 18, 2014.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2013/12/07/amor-merda.html"><h2 class="post-title">Amor suspeito</h2><h3 class="post-subtitle">cautela ao amar</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;December 7, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/10/28/coco-amor.html"><h2 class="post-title">Cocô também é amor</h2><h3 class="post-subtitle">preservação do ambiente</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;October 28, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2009/02/14/abaixo-desocupados.html"><h2 class="post-title">Abaixo aos punheteiros desocupados</h2><h3 class="post-subtitle">filosofia de boteco</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;February 14, 2009.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2009/02/14/abaixo-desocupadas.html"><h2 class="post-title">Abaixo às siriqueiras desocupadas</h2><h3 class="post-subtitle">filosofia de boteco</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;February 14, 2009.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="familia" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">familia</span>
+        <span class="badge badge-n">1</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2015/06/08/porque-nao-quero-ter-filhos.html"><h2 class="post-title">Por que não quero ter filhos?</h2><h3 class="post-subtitle">sobre a minha decisão de não querer conceber mais uma vida</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 8, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="fantástico" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">fantástico</span>
+        <span class="badge badge-n">1</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2014/08/03/desconhecidos.html"><h2 class="post-title">Desconhecidos</h2><h3 class="post-subtitle">olhares indiferentes</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;August 3, 2014.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="fé" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">fé</span>
+        <span class="badge badge-n">5</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2015/08/16/deus-existe.html"><h2 class="post-title">deus existe e Deus também</h2><h3 class="post-subtitle">filosofia de boteco e o todo poderoso</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;August 16, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2014/07/20/autocontrole-livre-arbitrio.html"><h2 class="post-title">Autocontrole e livre-arbítrio</h2><h3 class="post-subtitle">filosofia de boteco</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;July 20, 2014.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2013/10/07/humano-figado.html"><h2 class="post-title">Entre o humano, um fígado</h2><h3 class="post-subtitle">tempo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;October 7, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/10/29/sagrada-verdade.html"><h2 class="post-title">Sagrada Verdade</h2><h3 class="post-subtitle">tempo inviolável</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;October 29, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/05/01/vivendo-aprendendo.html"><h2 class="post-title">Vivendo e aprendendo</h2><h3 class="post-subtitle">Deus, o todo poderoso</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 1, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="heptassílabo" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">heptassílabo</span>
+        <span class="badge badge-n">16</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2020/02/09/um-sentimento-fora.html"><h2 class="post-title">um sentimento fora</h2><h3 class="post-subtitle">conquista</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;February 9, 2020.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2020/02/07/foto.html"><h2 class="post-title">foto</h2><h3 class="post-subtitle">um rosto liso</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;February 7, 2020.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2020/01/30/em-transe.html"><h2 class="post-title">em transe</h2><h3 class="post-subtitle">ações</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;January 30, 2020.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2020/01/26/casillero-del-diablo.html"><h2 class="post-title">casillero del diablo</h2><h3 class="post-subtitle">tudo po-porque tô resmo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;January 26, 2020.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2019/12/30/tara.html"><h2 class="post-title">tara</h2><h3 class="post-subtitle">inviolável</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;December 30, 2019.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2019/11/25/o-sol.html"><h2 class="post-title">o sol</h2><h3 class="post-subtitle">conquista</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;November 25, 2019.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2019/04/01/bicicleta.html"><h2 class="post-title">Bicicleta</h2><h3 class="post-subtitle">pedalar, guidon, garupa</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;April 1, 2019.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2019/03/17/n%C3%A3o-quero-mais.html"><h2 class="post-title">Não quero mais</h2><h3 class="post-subtitle">Conflitos e Insegurança</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;March 17, 2019.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/09/18/o-escritor.html"><h2 class="post-title">O escritor</h2><h3 class="post-subtitle">coisas de amor</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;September 18, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/06/13/a-aflicao-de-nao-estar-do-jeito-que-se-quer.html"><h2 class="post-title">Todo errado</h2><h3 class="post-subtitle">a aflição de não estar do jeito que se quer</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 13, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2014/06/24/coragem.html"><h2 class="post-title">Coragem</h2><h3 class="post-subtitle">desejo, paradoxo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 24, 2014.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2014/06/22/tragedia.html"><h2 class="post-title">Tragédia</h2><h3 class="post-subtitle">rimas soltas, paradoxo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 22, 2014.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2013/06/04/brisa-sinto.html"><h2 class="post-title">Como uma brisa, sinto</h2><h3 class="post-subtitle">luz, sons, texturas, cheiros e sabores</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 4, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2013/05/11/amor.html"><h2 class="post-title">Amor</h2><h3 class="post-subtitle">desejo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 11, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2013/02/06/ela-quer.html"><h2 class="post-title">Ela quer</h2><h3 class="post-subtitle">paixão</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;February 6, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2006/06/15/nunca-quis-teu-coracao.html"><h2 class="post-title">Nunca quis teu coração</h2><h3 class="post-subtitle">desejos invisíveis</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 15, 2006.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="linguagem" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">linguagem</span>
+        <span class="badge badge-n">1</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2013/12/07/inexistencia.html"><h2 class="post-title">Inexistência</h2><h3 class="post-subtitle">filosofia de boteco e significado</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;December 7, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="machismo" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">machismo</span>
+        <span class="badge badge-n">1</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2013/12/08/amizade-profunda-e-erudita.html"><h2 class="post-title">O lado profundo e erudito de uma amizade.</h2><h3 class="post-subtitle">machismo e Lulu app</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;December 8, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="markdown" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">markdown</span>
+        <span class="badge badge-n">2</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2015/05/31/ola-mundo-exemplo-markdown.html"><h2 class="post-title">Olá mundo.</h2><h3 class="post-subtitle">exemplo da escrita em markdown</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 31, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/05/31/hello-world-markdown-example.html"><h2 class="post-title">Hello World.</h2><h3 class="post-subtitle">markdown example</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 31, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">en</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="música" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">música</span>
+        <span class="badge badge-n">2</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2015/09/15/sokera.html"><h2 class="post-title">Sokera</h2><h3 class="post-subtitle">hard, sim, hardcore</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;September 15, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2006/06/01/in-flagellis-potum-fellis.html"><h2 class="post-title">In flagellis potum fellis</h2><h3 class="post-subtitle">santa ignorância</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 1, 2006.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="negritude" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">negritude</span>
+        <span class="badge badge-n">1</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2019/12/08/a-treva.html"><h2 class="post-title">A treva entre as estrelas</h2><h3 class="post-subtitle">escuro é belo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;December 8, 2019.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="notas" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">notas</span>
+        <span class="badge badge-n">1</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2016/05/13/controle-multiplo-comportamento-verbal.html"><h2 class="post-title">O comportamento verbal sob controle múltiplo</h2><h3 class="post-subtitle">Notas avulsas sobre Michael, Palmer e Sundberg (2011)</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 13, 2016.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="passo a passo" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">passo a passo</span>
+        <span class="badge badge-n">3</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2019/06/06/hostgator-remote-git.html"><h2 class="post-title">Como usar o Hostgator como servidor SSH remoto com o Git</h2><h3 class="post-subtitle">git push hostgator</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 6, 2019.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2019/04/16/impress-bug.html"><h2 class="post-title">Libre Office Impress bug no modo de apresentação</h2><h3 class="post-subtitle">correção de erro</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;April 16, 2019.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/06/06/como-configurar-subdominio-registro-br-github-pages.html"><h2 class="post-title">Configurando o Registro.br para o GitHub Pages.</h2><h3 class="post-subtitle">como configurar um subdomínio do Registro.br para o GitHub Pages</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 6, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="pergunta" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">pergunta</span>
+        <span class="badge badge-n">1</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2015/06/08/porque-nao-quero-ter-filhos.html"><h2 class="post-title">Por que não quero ter filhos?</h2><h3 class="post-subtitle">sobre a minha decisão de não querer conceber mais uma vida</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 8, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="poema" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">poema</span>
+        <span class="badge badge-n">65</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2020/02/09/um-sentimento-fora.html"><h2 class="post-title">um sentimento fora</h2><h3 class="post-subtitle">conquista</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;February 9, 2020.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2020/02/07/foto.html"><h2 class="post-title">foto</h2><h3 class="post-subtitle">um rosto liso</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;February 7, 2020.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2020/01/30/em-transe.html"><h2 class="post-title">em transe</h2><h3 class="post-subtitle">ações</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;January 30, 2020.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2020/01/26/casillero-del-diablo.html"><h2 class="post-title">casillero del diablo</h2><h3 class="post-subtitle">tudo po-porque tô resmo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;January 26, 2020.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2019/12/30/tara.html"><h2 class="post-title">tara</h2><h3 class="post-subtitle">inviolável</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;December 30, 2019.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2019/11/25/o-sol.html"><h2 class="post-title">o sol</h2><h3 class="post-subtitle">conquista</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;November 25, 2019.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2019/04/01/bicicleta.html"><h2 class="post-title">Bicicleta</h2><h3 class="post-subtitle">pedalar, guidon, garupa</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;April 1, 2019.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2019/03/17/n%C3%A3o-quero-mais.html"><h2 class="post-title">Não quero mais</h2><h3 class="post-subtitle">Conflitos e Insegurança</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;March 17, 2019.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/09/18/o-escritor.html"><h2 class="post-title">O escritor</h2><h3 class="post-subtitle">coisas de amor</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;September 18, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/06/13/a-aflicao-de-nao-estar-do-jeito-que-se-quer.html"><h2 class="post-title">Todo errado</h2><h3 class="post-subtitle">a aflição de não estar do jeito que se quer</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 13, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2014/06/24/quatro-estacoes-caldinho.html"><h2 class="post-title">As quatro estações do caldinho</h2><h3 class="post-subtitle">sexo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 24, 2014.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2014/06/24/coragem.html"><h2 class="post-title">Coragem</h2><h3 class="post-subtitle">desejo, paradoxo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 24, 2014.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2014/06/22/tragedia.html"><h2 class="post-title">Tragédia</h2><h3 class="post-subtitle">rimas soltas, paradoxo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 22, 2014.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2014/06/16/movimento-perpetuo.html"><h2 class="post-title">Movimento perpértuo</h2><h3 class="post-subtitle">rimas soltas, paradoxo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 16, 2014.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2014/06/14/esquiva.html"><h2 class="post-title">Esquiva</h2><h3 class="post-subtitle">paradoxo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 14, 2014.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2014/02/18/o-amor-ofensivo-repudiante.html"><h2 class="post-title">O amor.</h2><h3 class="post-subtitle">ofensivo, repudiante</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;February 18, 2014.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2013/12/30/ferias-dezembro.html"><h2 class="post-title">Férias de dezembro</h2><h3 class="post-subtitle">um menino empinando pipa</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;December 30, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2013/12/07/amor-merda.html"><h2 class="post-title">Amor suspeito</h2><h3 class="post-subtitle">cautela ao amar</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;December 7, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2013/12/01/amor.html"><h2 class="post-title">É o amor</h2><h3 class="post-subtitle">tempo, rotina, desgaste</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;December 1, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2013/10/07/humano-figado.html"><h2 class="post-title">Entre o humano, um fígado</h2><h3 class="post-subtitle">tempo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;October 7, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2013/10/04/vida-no-campo.html"><h2 class="post-title">A vida no campo</h2><h3 class="post-subtitle">rimas soltas</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;October 4, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2013/06/04/brisa-sinto.html"><h2 class="post-title">Como uma brisa, sinto</h2><h3 class="post-subtitle">luz, sons, texturas, cheiros e sabores</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 4, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2013/05/11/amor.html"><h2 class="post-title">Amor</h2><h3 class="post-subtitle">desejo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 11, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2013/03/08/nao-perca-o-foco.html"><h2 class="post-title">Não perca o foco</h2><h3 class="post-subtitle">tempo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;March 8, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2013/02/14/no-rumo.html"><h2 class="post-title">No rumo</h2><h3 class="post-subtitle">tesão</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;February 14, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2013/02/06/ela-quer.html"><h2 class="post-title">Ela quer</h2><h3 class="post-subtitle">paixão</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;February 6, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2013/02/03/corpos-a-deriva.html"><h2 class="post-title">Ai de mim</h2><h3 class="post-subtitle">paixão</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;February 3, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/11/03/individualismo.html"><h2 class="post-title">Liberdade</h2><h3 class="post-subtitle">escrever por escrever</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;November 3, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/10/29/sagrada-verdade.html"><h2 class="post-title">Sagrada Verdade</h2><h3 class="post-subtitle">tempo inviolável</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;October 29, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/10/28/coco-amor.html"><h2 class="post-title">Cocô também é amor</h2><h3 class="post-subtitle">preservação do ambiente</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;October 28, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/05/01/vivendo-aprendendo.html"><h2 class="post-title">Vivendo e aprendendo</h2><h3 class="post-subtitle">Deus, o todo poderoso</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 1, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/05/01/sussuro.html"><h2 class="post-title">Sussuro</h2><h3 class="post-subtitle">toque, silêncio</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 1, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/05/01/sorrir-chorar.html"><h2 class="post-title">Sorrir e chorar</h2><h3 class="post-subtitle">prazer e dor</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 1, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/05/01/quero-ver.html"><h2 class="post-title">Quero ver de onde vem, onde fica, como fica, aonde vai e o que é</h2><h3 class="post-subtitle">paradoxo, fantástico</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 1, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/05/01/quero-uma-moeda.html"><h2 class="post-title">Quero uma moeda</h2><h3 class="post-subtitle">candidez</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 1, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/05/01/lixo-prolixo.html"><h2 class="post-title">Pro lixo, prolixo?</h2><h3 class="post-subtitle">emoções</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 1, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/05/01/lembre.html"><h2 class="post-title">Lembre-se</h2><h3 class="post-subtitle">honestidade</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 1, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/05/01/gotica.html"><h2 class="post-title">Gótica</h2><h3 class="post-subtitle">preto no roxo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 1, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/05/01/doentio.html"><h2 class="post-title">Doentio</h2><h3 class="post-subtitle">paranóias de um amor enfermo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 1, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/05/01/descoberta.html"><h2 class="post-title">Descoberta</h2><h3 class="post-subtitle">para tudo há uma primeira vez</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 1, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/05/01/censurado.html"><h2 class="post-title">Censurado</h2><h3 class="post-subtitle">coerência e prazer</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 1, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/05/01/amor.html"><h2 class="post-title">Amor</h2><h3 class="post-subtitle">boa companhia</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 1, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/05/01/amor-verdadeiro.html"><h2 class="post-title">Amor verdadeiro</h2><h3 class="post-subtitle">amor, só que não, sexo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 1, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/04/04/suicida.html"><h2 class="post-title">Suicida</h2><h3 class="post-subtitle">fantástico</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;April 4, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2008/05/07/estrela.html"><h2 class="post-title">Estrela</h2><h3 class="post-subtitle">paixão</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 7, 2008.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2007/09/10/espontaneamento.html"><h2 class="post-title">Espontaneamente</h2><h3 class="post-subtitle">paixão</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;September 10, 2007.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2007/08/06/avoado.html"><h2 class="post-title">Avoado</h2><h3 class="post-subtitle">sorrir à toa</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;August 6, 2007.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2007/07/27/cidadao.html"><h2 class="post-title">Cidadão</h2><h3 class="post-subtitle">pessoas</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;July 27, 2007.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2007/07/20/uma-mulher.html"><h2 class="post-title">Uma mulher</h2><h3 class="post-subtitle">do início ao fim</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;July 20, 2007.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2007/06/01/amor-platonico.html"><h2 class="post-title">Ela</h2><h3 class="post-subtitle">amor platônico</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 1, 2007.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2007/04/17/movimento-paixao.html"><h2 class="post-title">Paixão e Movimento</h2><h3 class="post-subtitle">sentimentos</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;April 17, 2007.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2007/03/25/sou.html"><h2 class="post-title">O que sou</h2><h3 class="post-subtitle">amor, sexo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;March 25, 2007.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2007/03/25/sorrir-morar.html"><h2 class="post-title">Sorrir e Morar</h2><h3 class="post-subtitle">rimas soltas</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;March 25, 2007.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2007/03/25/menina.html"><h2 class="post-title">Ei menina...</h2><h3 class="post-subtitle">paixão</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;March 25, 2007.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2007/03/25/assim.html"><h2 class="post-title">Assim</h2><h3 class="post-subtitle">paixão</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;March 25, 2007.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2007/03/22/as-cegas.html"><h2 class="post-title">Paixão</h2><h3 class="post-subtitle">auto-regras</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;March 22, 2007.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2007/01/19/gostaria.html"><h2 class="post-title">Gostaria</h2><h3 class="post-subtitle">desejo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;January 19, 2007.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2007/01/14/penso-em-voce.html"><h2 class="post-title">Eu penso em você, Coração</h2><h3 class="post-subtitle">paixão</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;January 14, 2007.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2007/01/06/novelo-rotina.html"><h2 class="post-title">Novelo de Rotina</h2><h3 class="post-subtitle">rotina</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;January 6, 2007.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2007/01/06/avassaladora.html"><h2 class="post-title">Avassaladora</h2><h3 class="post-subtitle">paixão</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;January 6, 2007.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2007/01/01/no-campinho.html"><h2 class="post-title">No campinho</h2><h3 class="post-subtitle">infância</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;January 1, 2007.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2007/01/01/como-saber.html"><h2 class="post-title">Como saber?</h2><h3 class="post-subtitle">sorriso, segredo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;January 1, 2007.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2007/01/01/amor.html"><h2 class="post-title">Amor</h2><h3 class="post-subtitle">suave, brando</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;January 1, 2007.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2006/06/15/nunca-quis-teu-coracao.html"><h2 class="post-title">Nunca quis teu coração</h2><h3 class="post-subtitle">desejos invisíveis</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 15, 2006.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2006/06/01/in-flagellis-potum-fellis.html"><h2 class="post-title">In flagellis potum fellis</h2><h3 class="post-subtitle">santa ignorância</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 1, 2006.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="programação" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">programação</span>
+        <span class="badge badge-n">4</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2019/06/06/python-pip-custom-install-path.html"><h2 class="post-title">Instalar módulo python em um local customizado com pip</h2><h3 class="post-subtitle">python-pip</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 6, 2019.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2017/08/15/object-pascal.html"><h2 class="post-title">Object Pascal e Análise do Comportamento</h2><h3 class="post-subtitle">Introdução ao desenvolvimento de interfaces gráficas com Lazarus e Free Pascal</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;August 15, 2017.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/06/12/interagindo-com-esquemas-de-reforcamento.html"><h2 class="post-title">Interagindo com Esquemas de Reforçamento</h2><h3 class="post-subtitle">um protótipo para o ensino de esquemas de reforçamento</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 12, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/06/09/habilidades-uteis-para-ganhar-tempo-na-atividade-cientifica.html"><h2 class="post-title">Informatização e Ciência</h2><h3 class="post-subtitle">habilidades úteis para ganhar tempo na atividade científica</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 9, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="programming" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">programming</span>
+        <span class="badge badge-n">1</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2015/06/12/interacting-with-schedules-of-reinforcement.html"><h2 class="post-title">Interacting with schedules of reinforcement</h2><h3 class="post-subtitle">a prototype for teaching schedules of reinforcement</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 12, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">en</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="prosa" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">prosa</span>
+        <span class="badge badge-n">1</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2009/05/22/trabalho-amor-versos-vicio.html"><h2 class="post-title">Trabalho</h2><h3 class="post-subtitle">amor versos vício</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 22, 2009.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="quadrinho" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">quadrinho</span>
+        <span class="badge badge-n">5</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2015/09/11/sobre-calouros-analisando-dados.html"><h2 class="post-title">Sobre calouros analisando dados</h2><h3 class="post-subtitle">frustração, tentativa e erro</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;September 11, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/09/10/sobre-a-pratica-de-apneia-no-ver-o-peso.html"><h2 class="post-title">Sobre a prática de apneia no ver-o-peso</h2><h3 class="post-subtitle">o mercado de peixes de Belém do Pará</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;September 10, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/09/09/sobre-desencontros-academicos.html"><h2 class="post-title">Sobre desencontros acadêmicos</h2><h3 class="post-subtitle">os professores e as férias</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;September 9, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/09/08/um-exemplo-concreto-de-regressao-a-media.html"><h2 class="post-title">Um exemplo concreto de regressão a média</h2><h3 class="post-subtitle">o aleatório interferindo dia-a-dia</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;September 8, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/09/08/ola-mundo-dos-quadrinhos.html"><h2 class="post-title">Olá mundo dos quadrinhos!</h2><h3 class="post-subtitle">tirinhas, memes e a academia</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;September 8, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="republicação" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">republicação</span>
+        <span class="badge badge-n">1</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2019/03/08/sobre-pesquisadores-felizes-e-infelizes.html"><h2 class="post-title">Sobre pesquisadores felizes e infelizes...</h2><h3 class="post-subtitle">Laurenti (2013)</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;March 8, 2019.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="repudiante" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">repudiante</span>
+        <span class="badge badge-n">1</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2014/02/18/o-amor-ofensivo-repudiante.html"><h2 class="post-title">O amor.</h2><h3 class="post-subtitle">ofensivo, repudiante</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;February 18, 2014.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="resenha" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">resenha</span>
+        <span class="badge badge-n">4</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2017/09/15/nallan-et-al-1986.html"><h2 class="post-title">Identidade como aspecto distintivo (FPE, FNE)</h2><h3 class="post-subtitle">Nallan et al (1986)</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;September 15, 2017.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2017/09/01/holland-1957.html"><h2 class="post-title">Observação humana</h2><h3 class="post-subtitle">Anotações</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;September 1, 2017.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2016/05/14/mts-visual-visual-derivado-de-treino-intraverbal.html"><h2 class="post-title">MTS visual-visual derivado de treino intraverbal</h2><h3 class="post-subtitle">Petursdottir, Peterson & Lepper (2015)</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 14, 2016.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2016/03/18/comportamento-adjuntivo-wetherington-1982-resenha.html"><h2 class="post-title">Comportamento adjuntivo (Wetherington, 1982)</h2><h3 class="post-subtitle">respondentes, operantes e adjuntivos?</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;March 18, 2016.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="science" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">science</span>
+        <span class="badge badge-n">1</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2015/06/12/interacting-with-schedules-of-reinforcement.html"><h2 class="post-title">Interacting with schedules of reinforcement</h2><h3 class="post-subtitle">a prototype for teaching schedules of reinforcement</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 12, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">en</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="sexo" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">sexo</span>
+        <span class="badge badge-n">7</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2014/06/24/quatro-estacoes-caldinho.html"><h2 class="post-title">As quatro estações do caldinho</h2><h3 class="post-subtitle">sexo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 24, 2014.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2014/06/16/movimento-perpetuo.html"><h2 class="post-title">Movimento perpértuo</h2><h3 class="post-subtitle">rimas soltas, paradoxo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 16, 2014.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2013/10/04/vida-no-campo.html"><h2 class="post-title">A vida no campo</h2><h3 class="post-subtitle">rimas soltas</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;October 4, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2013/06/04/brisa-sinto.html"><h2 class="post-title">Como uma brisa, sinto</h2><h3 class="post-subtitle">luz, sons, texturas, cheiros e sabores</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 4, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2013/02/06/ela-quer.html"><h2 class="post-title">Ela quer</h2><h3 class="post-subtitle">paixão</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;February 6, 2013.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2012/05/01/amor-verdadeiro.html"><h2 class="post-title">Amor verdadeiro</h2><h3 class="post-subtitle">amor, só que não, sexo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 1, 2012.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2007/03/25/sou.html"><h2 class="post-title">O que sou</h2><h3 class="post-subtitle">amor, sexo</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;March 25, 2007.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="sexualidade" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">sexualidade</span>
+        <span class="badge badge-n">2</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2019/11/07/eros-delinquente.html"><h2 class="post-title">Eros delinquente</h2><h3 class="post-subtitle">libidinoso e violento</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;November 7, 2019.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2019/11/05/seres-humanos.html"><h2 class="post-title">Seres humanos</h2><h3 class="post-subtitle">olhar retribuído</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;November 5, 2019.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="software" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">software</span>
+        <span class="badge badge-n">2</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2015/06/12/interagindo-com-esquemas-de-reforcamento.html"><h2 class="post-title">Interagindo com Esquemas de Reforçamento</h2><h3 class="post-subtitle">um protótipo para o ensino de esquemas de reforçamento</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 12, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/06/12/interacting-with-schedules-of-reinforcement.html"><h2 class="post-title">Interacting with schedules of reinforcement</h2><h3 class="post-subtitle">a prototype for teaching schedules of reinforcement</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 12, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">en</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="subjetividade" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">subjetividade</span>
+        <span class="badge badge-n">1</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2015/07/02/e-possivel-uma-subjetividade-que-nao-se-preste-ao-conhecimento.html"><h2 class="post-title">É possível uma subjetividade que não se preste ao conhecimento?</h2><h3 class="post-subtitle">subjetividade, conhecimento e segredos</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;July 2, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="tecnologia" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">tecnologia</span>
+        <span class="badge badge-n">1</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2015/06/09/habilidades-uteis-para-ganhar-tempo-na-atividade-cientifica.html"><h2 class="post-title">Informatização e Ciência</h2><h3 class="post-subtitle">habilidades úteis para ganhar tempo na atividade científica</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 9, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="terror psicológico" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">terror psicológico</span>
+        <span class="badge badge-n">1</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2019/11/04/gaiola-de-ouro.html"><h2 class="post-title">Gaiola de ouro</h2><h3 class="post-subtitle">possível inalcansável</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;November 4, 2019.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="tradução" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">tradução</span>
+        <span class="badge badge-n">1</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2006/06/01/in-flagellis-potum-fellis.html"><h2 class="post-title">In flagellis potum fellis</h2><h3 class="post-subtitle">santa ignorância</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 1, 2006.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="vida" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">vida</span>
+        <span class="badge badge-n">1</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2015/06/08/porque-nao-quero-ter-filhos.html"><h2 class="post-title">Por que não quero ter filhos?</h2><h3 class="post-subtitle">sobre a minha decisão de não querer conceber mais uma vida</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 8, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+    <div id="web design" style="padding-top: 3.0em;">
+      <ul class="list-inline"><li>
+        <span class="badge ">web design</span>
+        <span class="badge badge-n">6</span>
+      </li></ul>
+
+  
+  
+      <ul class="post-preview" style="padding-bottom: 4.0em; padding-top: 1.0em;">
+  
+          <a href="/2019/06/06/hostgator-remote-git.html"><h2 class="post-title">Como usar o Hostgator como servidor SSH remoto com o Git</h2><h3 class="post-subtitle">git push hostgator</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 6, 2019.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/09/06/paginacao-sem-plugins-usando-jekyll-no-github-pages.html"><h2 class="post-title">Paginação sem plugins usando Jekyll no GitHub Pages</h2><h3 class="post-subtitle">com o mínimo de esforço manual</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;September 6, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/09/06/jekyll-pagination-on-github-pages-without-plugins.html"><h2 class="post-title">Jekyll pagination on GitHub Pages without plugins</h2><h3 class="post-subtitle">with minor manual work</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;September 6, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">en</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/06/06/como-configurar-subdominio-registro-br-github-pages.html"><h2 class="post-title">Configurando o Registro.br para o GitHub Pages.</h2><h3 class="post-subtitle">como configurar um subdomínio do Registro.br para o GitHub Pages</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;June 6, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/05/31/ola-mundo-exemplo-markdown.html"><h2 class="post-title">Olá mundo.</h2><h3 class="post-subtitle">exemplo da escrita em markdown</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 31, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">pt-BR</span></li>
+        </ul>
+        <hr>
+  
+          <a href="/2015/05/31/hello-world-markdown-example.html"><h2 class="post-title">Hello World.</h2><h3 class="post-subtitle">markdown example</h3></a>
+        <!-- Author-Date -->
+          
+          
+            <p class="post-meta">Posted by&#32;<a href="http://portfolio.rafael.picanco.nom.br/en/projects.html">Rafael Picanço</a>&#32;on&#32;May 31, 2015.</p>
+          
+        <ul class="list-inline">
+            <li><span class="badge">en</span></li>
+        </ul>
+        <hr>
+  
+  
+      </ul>
+      <hr>
+    </div>        
+
+
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <ul class="list-inline text-center">
+              <li>
+                <a href="https://twitter.com/crpicanco">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://soundcloud.com/carlitusbatera">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-soundcloud fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/cpicanco">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <p class="text-muted text-center">
+            
+              &copy; Carlos Rafael Fernandes Picanço, 2015-2019.<br>
+              Hosted by <a href="https://github.com/cpicanco/blog/">GitHub Pages</a>.<br>
+              Built with <a href="https://getbootstrap.com/">Bootstrap</a> and <a href="https://jekyllrb.com/">Jekyll</a>.<br>
+            
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    
+    <!-- JQuery may conflict with Bootstrap, they said -->        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script>
+          if (typeof jQuery === 'undefined') {
+            document.write(unescape('%3Cscript%20src%3D%22/js/jquery.min.js%22%3E%3C/script%3E'));
+          };
+        </script>
+      <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster 
+        http://encosia.com/3-reasons-why-you-should-let-google-host-jquery-for-you/
+        http://stackoverflow.com/questions/26192897/should-i-use-bootstrap-from-cdn-or-make-a-copy-on-my-server
+      -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script>
+          if (typeof($.fn.modal) === 'undefined') {
+            document.write(unescape('%3Cscript%20src%3D%22/js/bootstrap.min.js%22%3E%3C/script%3E'));
+          };
+        </script>
+
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="/js/ie10-viewport-bug-workaround.min.js"></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-59877002-2');
+        </script>
+
+
+        <!-- Google Knowledge Graph -->
+    
+        <script type="application/ld+json">
+        {
+          "@context" : "http://schema.org",
+          "@type" : "Person",
+          "name" : "Rafael Picanço",
+          "jobTitle": "Doctoral student",
+          "image": "http://blog.rafael.picanco.nom.br/media/rafael-picanco-perfil.jpg",
+          "affiliation": "Universidade Federal do Pará",
+          "url" : "http://blog.rafael.picanco.nom.br/en/tags/",
+          "sameAs" : [
+              "https://plus.google.com/100568018502354753364",
+            "https://twitter.com/crpicanco",
+            "https://www.facebook.com/rafael.picanco",
+            "https://soundcloud.com/carlitusbatera",
+            "https://github.com/cpicanco",
+            "https://geape-ufpa.academia.edu/CarlosRafael", 
+            "https://www.researchgate.net/profile/Carlos_Picanco",
+            "https://www.zotero.org/cpicanco/",
+            "http://codereview.stackexchange.com/users/62263/cpicanco"
+          ]
+        }
+        </script>
+    
+
+    
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/clean-blog.min.js"></script> 
+  </body>
+</html>

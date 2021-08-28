@@ -1,0 +1,1511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/pt-br/tags/</loc>
+  
+    <lastmod>2021-08-28T08:20:20+00:00</lastmod>
+  
+    <changefreq>monthly</changefreq>
+  
+    <priority>0.8</priority>
+  
+  
+  
+    <xhtml:link rel="alternate"
+                hreflang="en"
+                href="http://blog.rafael.picanco.nom.br/blog/en/tags/" />
+    <xhtml:link rel="alternate"
+                hreflang="pt-BR"
+                href="http://blog.rafael.picanco.nom.br/pt-br/tags/" />
+  
+  </url>
+
+
+
+
+  
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/en/tags/</loc>
+  
+    <lastmod>2021-08-28T08:20:20+00:00</lastmod>
+  
+    <changefreq>monthly</changefreq>
+  
+    <priority>0.8</priority>
+  
+  
+    <xhtml:link rel="alternate"
+                hreflang="pt-BR"
+                href="http://blog.rafael.picanco.nom.br/blog/pt-br/tags/" />
+    <xhtml:link rel="alternate"
+                hreflang="en"
+                href="http://blog.rafael.picanco.nom.br/en/tags/" />
+  
+  
+  </url>
+
+
+  
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/</loc>
+  
+    <lastmod>2021-08-28T08:20:20+00:00</lastmod>
+  
+    <changefreq>monthly</changefreq>
+  
+    <priority>0.8</priority>
+  
+  
+  
+  </url>
+
+
+  
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/pt-br/</loc>
+  
+    <lastmod>2021-08-28T08:20:20+00:00</lastmod>
+  
+    <changefreq>monthly</changefreq>
+  
+    <priority>1.0</priority>
+  
+  
+  
+    <xhtml:link rel="alternate"
+                hreflang="en"
+                href="http://blog.rafael.picanco.nom.br/blog/en/" />
+    <xhtml:link rel="alternate"
+                hreflang="pt-BR"
+                href="http://blog.rafael.picanco.nom.br/pt-br/" />
+  
+  </url>
+
+
+  
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/en/</loc>
+  
+    <lastmod>2021-08-28T08:20:20+00:00</lastmod>
+  
+    <changefreq>monthly</changefreq>
+  
+    <priority>1.0</priority>
+  
+  
+    <xhtml:link rel="alternate"
+                hreflang="pt-BR"
+                href="http://blog.rafael.picanco.nom.br/blog/pt-br/" />
+    <xhtml:link rel="alternate"
+                hreflang="en"
+                href="http://blog.rafael.picanco.nom.br/en/" />
+  
+  
+  </url>
+
+
+  
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/sitemap.xml</loc>
+  
+    <lastmod>2021-08-28T08:20:20+00:00</lastmod>
+  
+    <changefreq>monthly</changefreq>
+  
+    <priority>0.8</priority>
+  
+  
+  
+  </url>
+
+
+
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2020/02/09/um-sentimento-fora.html</loc>
+  
+    <lastmod>2020-02-09T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2020/02/07/foto.html</loc>
+  
+    <lastmod>2020-02-07T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2020/01/30/em-transe.html</loc>
+  
+    <lastmod>2020-01-30T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2020/01/26/casillero-del-diablo.html</loc>
+  
+    <lastmod>2020-01-26T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2020/01/23/ser-amigo.html</loc>
+  
+    <lastmod>2020-01-23T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2019/12/30/tara.html</loc>
+  
+    <lastmod>2019-12-30T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2019/12/28/amor-metodico.html</loc>
+  
+    <lastmod>2019-12-28T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2019/12/08/a-treva.html</loc>
+  
+    <lastmod>2019-12-08T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2019/11/25/o-sol.html</loc>
+  
+    <lastmod>2019-11-25T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2019/11/07/eros-delinquente.html</loc>
+  
+    <lastmod>2019-11-07T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2019/11/05/seres-humanos.html</loc>
+  
+    <lastmod>2019-11-05T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2019/11/04/gaiola-de-ouro.html</loc>
+  
+    <lastmod>2019-11-04T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2019/06/06/python-pip-custom-install-path.html</loc>
+  
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2019/06/06/hostgator-remote-git.html</loc>
+  
+    <lastmod>2019-06-06T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2019/04/16/impress-bug.html</loc>
+  
+    <lastmod>2019-04-16T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2019/04/01/bicicleta.html</loc>
+  
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2019/03/17/n%C3%A3o-quero-mais.html</loc>
+  
+    <lastmod>2019-03-17T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2019/03/08/sobre-pesquisadores-felizes-e-infelizes.html</loc>
+  
+    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2017/09/15/nallan-et-al-1986.html</loc>
+  
+    <lastmod>2017-09-15T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2017/09/01/holland-1957.html</loc>
+  
+    <lastmod>2017-09-01T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2017/08/15/object-pascal.html</loc>
+  
+    <lastmod>2017-08-15T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2016/05/14/mts-visual-visual-derivado-de-treino-intraverbal.html</loc>
+  
+    <lastmod>2016-05-14T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2016/05/13/controle-multiplo-comportamento-verbal.html</loc>
+  
+    <lastmod>2016-05-13T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2016/03/18/comportamento-adjuntivo-wetherington-1982-resenha.html</loc>
+  
+    <lastmod>2016-03-18T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2015/11/10/sobre-a-fosfoetanolamina.html</loc>
+  
+    <lastmod>2015-11-10T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2015/09/18/o-escritor.html</loc>
+  
+    <lastmod>2015-09-18T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2015/09/15/sokera.html</loc>
+  
+    <lastmod>2015-09-15T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2015/09/11/sobre-calouros-analisando-dados.html</loc>
+  
+    <lastmod>2015-09-11T13:12:21+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2015/09/10/sobre-a-pratica-de-apneia-no-ver-o-peso.html</loc>
+  
+    <lastmod>2015-09-10T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2015/09/09/sobre-desencontros-academicos.html</loc>
+  
+    <lastmod>2015-09-09T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2015/09/08/um-exemplo-concreto-de-regressao-a-media.html</loc>
+  
+    <lastmod>2015-09-08T03:04:50+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2015/09/08/ola-mundo-dos-quadrinhos.html</loc>
+  
+    <lastmod>2015-09-08T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2015/09/06/a-ciencia-como-um-sistema-complexo-competitivo.html</loc>
+  
+    <lastmod>2015-09-06T20:03:13+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2015/09/06/paginacao-sem-plugins-usando-jekyll-no-github-pages.html</loc>
+  
+    <lastmod>2015-09-06T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+    <xhtml:link rel="alternate"
+                hreflang="en"
+                href="http://blog.rafael.picanco.nom.br/2015/09/06/jekyll-pagination-on-github-pages-without-plugins.html" />
+    <xhtml:link rel="alternate"
+                hreflang="pt-BR"
+                href="http://blog.rafael.picanco.nom.br/2015/09/06/paginacao-sem-plugins-usando-jekyll-no-github-pages.html" />
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2015/09/06/jekyll-pagination-on-github-pages-without-plugins.html</loc>
+  
+    <lastmod>2015-09-06T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+    <xhtml:link rel="alternate"
+                hreflang="pt-BR"
+                href="http://blog.rafael.picanco.nom.br/2015/09/06/paginacao-sem-plugins-usando-jekyll-no-github-pages.html" />
+    <xhtml:link rel="alternate"
+                hreflang="en"
+                href="http://blog.rafael.picanco.nom.br/2015/09/06/jekyll-pagination-on-github-pages-without-plugins.html" />
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2015/08/16/deus-existe.html</loc>
+  
+    <lastmod>2015-08-16T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2015/08/15/tudo-esta-mudando.html</loc>
+  
+    <lastmod>2015-08-15T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2015/08/12/sobre-o-determinismo-instrumento-evangelizador-ou-cientifico.html</loc>
+  
+    <lastmod>2015-08-12T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2015/07/02/e-possivel-uma-subjetividade-que-nao-se-preste-ao-conhecimento.html</loc>
+  
+    <lastmod>2015-07-02T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2015/06/16/saber-ciencia.html</loc>
+  
+    <lastmod>2015-06-16T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2015/06/13/a-aflicao-de-nao-estar-do-jeito-que-se-quer.html</loc>
+  
+    <lastmod>2015-06-13T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2015/06/12/interagindo-com-esquemas-de-reforcamento.html</loc>
+  
+    <lastmod>2015-06-12T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+    <xhtml:link rel="alternate"
+                hreflang="en"
+                href="http://blog.rafael.picanco.nom.br/2015/06/12/interacting-with-schedules-of-reinforcement.html" />
+    <xhtml:link rel="alternate"
+                hreflang="pt-BR"
+                href="http://blog.rafael.picanco.nom.br/2015/06/12/interagindo-com-esquemas-de-reforcamento.html" />
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2015/06/12/interacting-with-schedules-of-reinforcement.html</loc>
+  
+    <lastmod>2015-06-12T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+    <xhtml:link rel="alternate"
+                hreflang="pt-BR"
+                href="http://blog.rafael.picanco.nom.br/2015/06/12/interagindo-com-esquemas-de-reforcamento.html" />
+    <xhtml:link rel="alternate"
+                hreflang="en"
+                href="http://blog.rafael.picanco.nom.br/2015/06/12/interacting-with-schedules-of-reinforcement.html" />
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2015/06/09/habilidades-uteis-para-ganhar-tempo-na-atividade-cientifica.html</loc>
+  
+    <lastmod>2015-06-09T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2015/06/08/porque-nao-quero-ter-filhos.html</loc>
+  
+    <lastmod>2015-06-08T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2015/06/06/como-configurar-subdominio-registro-br-github-pages.html</loc>
+  
+    <lastmod>2015-06-06T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2015/05/31/ola-mundo-exemplo-markdown.html</loc>
+  
+    <lastmod>2015-05-31T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+    <xhtml:link rel="alternate"
+                hreflang="en"
+                href="http://blog.rafael.picanco.nom.br/2015/05/31/hello-world-markdown-example.html" />
+    <xhtml:link rel="alternate"
+                hreflang="pt-BR"
+                href="http://blog.rafael.picanco.nom.br/2015/05/31/ola-mundo-exemplo-markdown.html" />
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2015/05/31/hello-world-markdown-example.html</loc>
+  
+    <lastmod>2015-05-31T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+    <xhtml:link rel="alternate"
+                hreflang="pt-BR"
+                href="http://blog.rafael.picanco.nom.br/2015/05/31/ola-mundo-exemplo-markdown.html" />
+    <xhtml:link rel="alternate"
+                hreflang="en"
+                href="http://blog.rafael.picanco.nom.br/2015/05/31/hello-world-markdown-example.html" />
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2014/08/03/desconhecidos.html</loc>
+  
+    <lastmod>2014-08-03T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2014/07/20/autocontrole-livre-arbitrio.html</loc>
+  
+    <lastmod>2014-07-20T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2014/06/24/quatro-estacoes-caldinho.html</loc>
+  
+    <lastmod>2014-06-24T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2014/06/24/coragem.html</loc>
+  
+    <lastmod>2014-06-24T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2014/06/22/tragedia.html</loc>
+  
+    <lastmod>2014-06-22T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2014/06/16/movimento-perpetuo.html</loc>
+  
+    <lastmod>2014-06-16T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2014/06/14/esquiva.html</loc>
+  
+    <lastmod>2014-06-14T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2014/06/14/amor-platonico.html</loc>
+  
+    <lastmod>2014-06-14T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2014/05/29/a-cura.html</loc>
+  
+    <lastmod>2014-05-29T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2014/02/18/o-amor-ofensivo-repudiante.html</loc>
+  
+    <lastmod>2014-02-18T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2013/12/30/ferias-dezembro.html</loc>
+  
+    <lastmod>2013-12-30T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2013/12/30/abaixo-o-amor.html</loc>
+  
+    <lastmod>2013-12-30T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2013/12/08/amizade-profunda-e-erudita.html</loc>
+  
+    <lastmod>2013-12-08T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2013/12/07/inexistencia.html</loc>
+  
+    <lastmod>2013-12-07T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2013/12/07/amor-merda.html</loc>
+  
+    <lastmod>2013-12-07T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2013/12/01/amor.html</loc>
+  
+    <lastmod>2013-12-01T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2013/10/07/humano-figado.html</loc>
+  
+    <lastmod>2013-10-07T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2013/10/04/vida-no-campo.html</loc>
+  
+    <lastmod>2013-10-04T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2013/06/04/brisa-sinto.html</loc>
+  
+    <lastmod>2013-06-04T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2013/05/11/amor.html</loc>
+  
+    <lastmod>2013-05-11T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2013/03/08/nao-perca-o-foco.html</loc>
+  
+    <lastmod>2013-03-08T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2013/02/14/no-rumo.html</loc>
+  
+    <lastmod>2013-02-14T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2013/02/06/ela-quer.html</loc>
+  
+    <lastmod>2013-02-06T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2013/02/03/corpos-a-deriva.html</loc>
+  
+    <lastmod>2013-02-03T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2012/11/03/individualismo.html</loc>
+  
+    <lastmod>2012-11-03T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2012/10/29/sagrada-verdade.html</loc>
+  
+    <lastmod>2012-10-29T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2012/10/28/coco-amor.html</loc>
+  
+    <lastmod>2012-10-28T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2012/08/11/papai.html</loc>
+  
+    <lastmod>2012-08-11T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2012/05/01/vivendo-aprendendo.html</loc>
+  
+    <lastmod>2012-05-01T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2012/05/01/sussuro.html</loc>
+  
+    <lastmod>2012-05-01T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2012/05/01/sorrir-chorar.html</loc>
+  
+    <lastmod>2012-05-01T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2012/05/01/quero-ver.html</loc>
+  
+    <lastmod>2012-05-01T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2012/05/01/quero-uma-moeda.html</loc>
+  
+    <lastmod>2012-05-01T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2012/05/01/lixo-prolixo.html</loc>
+  
+    <lastmod>2012-05-01T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2012/05/01/lembre.html</loc>
+  
+    <lastmod>2012-05-01T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2012/05/01/gotica.html</loc>
+  
+    <lastmod>2012-05-01T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2012/05/01/ele-ela.html</loc>
+  
+    <lastmod>2012-05-01T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2012/05/01/doentio.html</loc>
+  
+    <lastmod>2012-05-01T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2012/05/01/descoberta.html</loc>
+  
+    <lastmod>2012-05-01T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2012/05/01/censurado.html</loc>
+  
+    <lastmod>2012-05-01T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2012/05/01/amor.html</loc>
+  
+    <lastmod>2012-05-01T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2012/05/01/amor-verdadeiro.html</loc>
+  
+    <lastmod>2012-05-01T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2012/04/04/suicida.html</loc>
+  
+    <lastmod>2012-04-04T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2009/05/22/trabalho-amor-versos-vicio.html</loc>
+  
+    <lastmod>2009-05-22T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2009/02/14/abaixo-desocupados.html</loc>
+  
+    <lastmod>2009-02-14T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2009/02/14/abaixo-desocupadas.html</loc>
+  
+    <lastmod>2009-02-14T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2008/05/07/estrela.html</loc>
+  
+    <lastmod>2008-05-07T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2007/09/10/espontaneamento.html</loc>
+  
+    <lastmod>2007-09-10T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2007/08/06/avoado.html</loc>
+  
+    <lastmod>2007-08-06T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2007/07/27/cidadao.html</loc>
+  
+    <lastmod>2007-07-27T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2007/07/20/uma-mulher.html</loc>
+  
+    <lastmod>2007-07-20T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2007/06/01/amor-platonico.html</loc>
+  
+    <lastmod>2007-06-01T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2007/04/17/movimento-paixao.html</loc>
+  
+    <lastmod>2007-04-17T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2007/03/25/sou.html</loc>
+  
+    <lastmod>2007-03-25T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2007/03/25/sorrir-morar.html</loc>
+  
+    <lastmod>2007-03-25T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2007/03/25/menina.html</loc>
+  
+    <lastmod>2007-03-25T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2007/03/25/assim.html</loc>
+  
+    <lastmod>2007-03-25T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2007/03/22/as-cegas.html</loc>
+  
+    <lastmod>2007-03-22T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2007/01/19/gostaria.html</loc>
+  
+    <lastmod>2007-01-19T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2007/01/14/penso-em-voce.html</loc>
+  
+    <lastmod>2007-01-14T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2007/01/06/novelo-rotina.html</loc>
+  
+    <lastmod>2007-01-06T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2007/01/06/avassaladora.html</loc>
+  
+    <lastmod>2007-01-06T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2007/01/01/no-campinho.html</loc>
+  
+    <lastmod>2007-01-01T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2007/01/01/como-saber.html</loc>
+  
+    <lastmod>2007-01-01T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2007/01/01/amor.html</loc>
+  
+    <lastmod>2007-01-01T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2006/06/15/nunca-quis-teu-coracao.html</loc>
+  
+    <lastmod>2006-06-15T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+  <url>
+    <loc>http://blog.rafael.picanco.nom.br/2006/06/01/in-flagellis-potum-fellis.html</loc>
+  
+    <lastmod>2006-06-01T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
+
+</urlset>

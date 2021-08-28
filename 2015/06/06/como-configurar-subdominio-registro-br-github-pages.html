@@ -1,0 +1,478 @@
+<!--Copyright (c) 2015-2016 Carlos Rafael Fernandes Picanço.-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+
+<!-- Head -->
+  
+
+  
+
+  
+
+  <head prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb# article: https://ogp.me/ns/article#">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59877002-2"></script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M3ZGK8V');</script>
+    <!-- End Google Tag Manager -->    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Pensamentos sobre como configurar um subdomínio do Registro.br para o GitHub Pages, postado por Rafael Picanço, cientista do comportamento, programador entusiasta e baterista freelance.">
+  
+    <!-- Open Graph meta tags -->
+    <meta property="og:title" content="In Flagellis. | Configurando o Registro.br para o GitHub Pages.">
+    <meta property="og:type" content="article">
+    <meta property="og:description" content="Pensamentos sobre como configurar um subdomínio do Registro.br para o GitHub Pages, postado por Rafael Picanço, cientista do comportamento, programador entusiasta e baterista freelance.">
+    <meta property="og:url" content="http://blog.rafael.picanco.nom.br/2015/06/06/como-configurar-subdominio-registro-br-github-pages.html">
+    <meta property="og:image" content="http://blog.rafael.picanco.nom.br/media/blog/in-flagellis-clean-pt-br.png">
+    <meta property="og:image:width" content="613">
+    <meta property="og:image:height" content="448">
+  
+    <meta property="og:locale" content="pt_BR">
+  
+    <meta property="og:site_name" content="In Flagellis.">
+    <meta property="fb:profile_id" content="1651005333">
+    <meta property="fb:app_id" content="302184056577324">
+
+    <!-- Twitter Card properties -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="In Flagellis. | Configurando o Registro.br para o GitHub Pages.">
+    <meta name="twitter:creator" content="@crpicanco">
+    <meta name="twitter:description" content="Pensamentos sobre como configurar um subdomínio do Registro.br para o GitHub Pages, postado por Rafael Picanço, cientista do comportamento, programador entusiasta e baterista freelance.">
+    <meta name="twitter:image" content="http://blog.rafael.picanco.nom.br/media/blog/in-flagellis-clean-pt-br.png">
+    <meta name="twitter:image:width" content="613">
+    <meta name="twitter:image:height" content="448">
+    
+    <title>In Flagellis. | Configurando o Registro.br para o GitHub Pages.</title>
+
+    <link rel="image_src" href="http://blog.rafael.picanco.nom.br/media/blog/in-flagellis-clean-pt-br.png" >
+    <link rel="canonical" href="http://blog.rafael.picanco.nom.br/2015/06/06/como-configurar-subdominio-registro-br-github-pages.html">
+    <link rel="icon" href="/media/favicon.ico">
+    <!-- Bootstrap core CSS -->
+    <!-- Custom CSS -->
+    <!-- Highlight.js --> 
+    <link href="/css/blog-styles.concat.css" rel="stylesheet">
+    <!-- Custom Fonts -->   
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  </head>
+
+
+
+  <body>
+   <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M3ZGK8V"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+ 
+   <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            
+              <span class="sr-only">Alternar navegação</span>
+            
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+
+          </button>
+          
+            <a class="navbar-brand" href="http://portfolio.rafael.picanco.nom.br/pt-br/projects.html">&middot;&#32;Portfólio</a>
+                  
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            
+              
+                
+              
+              <li><a href="/pt-br/">Página Inicial</a></li>
+              <li><a href="#about">Sobre o autor</a></li>
+            
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container -->
+    </nav>   
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+  
+    <header class="intro-header" style="background-color:#153038;">
+  
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              <h1>Configurando o Registro.br para o GitHub Pages.</h1>
+              <h2 class="subheading">como configurar um subdomínio do Registro.br para o GitHub Pages</h2>                                
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <ul class="list-inline">
+          
+              <li>
+                <a href="/pt-br/tags/#passo a passo"><span class="badge">passo a passo</span></a>
+              </li>
+          
+              <li>
+                <a href="/pt-br/tags/#web design"><span class="badge">web design</span></a>
+              </li>
+          
+            </ul>   
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <h3 id="github-pages">GitHub Pages</h3>
+
+<p>O <a href="http://github.com">GitHub</a> é um excelente serviço de gestão e lançamento de <em>softwares</em>. Além disso ele pode servir para gerir e publicar uma infinidade de outros produtos que envolvam texto. Por exemplo, algumas pessoas inclusive tem usado o serviço para gerir receitas e tarefas do lar. O GitHub Pages, por outro lado, tem o objetivo formal de hospedar <em>sites</em> ou <em>blogs</em> de documentação de <em>softwares</em>. Se você for daqueles afeito ao Open Science, ou simplesmente gosta de compartilhar os produtos de sua atividade profissional, o GitHub Pages hospeda sua página gratuitamente. Há também a opção de comprar reservatórios privados, caso você assim prefira.</p>
+
+<h3 id="registrobr">Registro.br</h3>
+
+<p>O <a href="http://www.registro.br/">Registro.br</a> é um serviço de <a href="http://pt.wikipedia.org/wiki/Domain_Name_System">DNS</a>, e assim como outros serviços do gênero, com ele você pode comprar um domínio. Por exemplo, eu comprei o domínio <code class="language-plaintext highlighter-rouge">rafael.picanco.nom.br</code> para personalizar os domínios gratuitos oferecidos pelo GitHub Pages (<code class="language-plaintext highlighter-rouge">cpicanco.github.io</code> e <code class="language-plaintext highlighter-rouge">cpicanco.github.com</code>). Essa personalização exigiu que eu configurasse o Registro.br de acordo com as <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/">instruções e recomendações</a> do GitHub Pages.</p>
+
+<blockquote>
+  <p>O Registro.br é o departamento do NIC.br responsável pelas atividades de registro e manutenção dos nomes de domínios que usam o .br. Também executamos o serviço de distribuição de endereços IPv4 e IPv6 e de números de Sistemas Autônomos (ASN) no país. “http://www.registro.br/sobre/”</p>
+</blockquote>
+
+<h3 id="configurar-o-registrobr">Configurar o Registro.br</h3>
+
+<p>Uma das recomendações mais úteis foi a de personalizar um subdomínio do Registro.br como domínio do GitHub Pages afim de tomar vantagem do <a href="http://pt.wikipedia.org/wiki/Content_Delivery_Network">CDN</a> do GitHub Pages. Por exemplo, personalizar com este <code class="language-plaintext highlighter-rouge">sub.dominío.exemplo.br</code> que refere-se a este <code class="language-plaintext highlighter-rouge">dominío.exemplo.br</code>. Na prática, isso significou maior facilidade de compartilhar conteúdos de mídia (fotos e vídeos) nas redes sociais. O Facebook, por exemplo, possui diretrizes rigorosas para a entrega de conteúdos de mídia por meio do <a href="https://developers.facebook.com/docs/sharing/opengraph">Open Graph</a>. Para mais informações confira as <a href="https://help.github.com/articles/about-custom-domains-for-github-pages-sites/">instruções oficiais</a>.</p>
+
+<h3 id="pré-requisitos">Pré-requisitos</h3>
+
+<p>Pois bem, após criar uma página no GitHub Pages e comprar o tal domínio (pré-requisitos para os passos seguintes), como configurá-lo no Registro.br?</p>
+
+<h3 id="passo-1">Passo 1</h3>
+
+<p>Na sua página no GitHub (ou por meio de comandos <code class="language-plaintext highlighter-rouge">git</code> em um terminal), caso ainda não tenha feito isto, crie um novo arquivo chamado <code class="language-plaintext highlighter-rouge">CNAME</code> na raiz do seu diretório.</p>
+
+<h3 id="passo-2">Passo 2</h3>
+
+<p>Adicione apenas uma linha nesse arquivo com o <code class="language-plaintext highlighter-rouge">sub.dominío.exemplo.br</code> de sua preferência. O subdomínio que eu escolhi, por exemplo, foi <code class="language-plaintext highlighter-rouge">www.rafael.picanco.nom.br</code>. Caso ainda tenha dúvidas, <a href="https://help.github.com/articles/adding-a-cname-file-to-your-repository/">siga as instruções</a> do GitHub Pages. O blog do <a href="http://willianjusten.com.br/">Willian Justen</a> também pode ajudar.</p>
+
+<h3 id="passo-3">Passo 3</h3>
+
+<p>Faça login na sua conta no Registro.br.</p>
+
+<h3 id="passo-4">Passo 4</h3>
+
+<p>Clique sobre o domínio de sua preferência:</p>
+<p><img class="img-responsive center-block" src="../../../media/blog/registro-br-dominios-pagina-inicial.png" alt="Registro.br &gt; Domínios - Página inicial" /></p>
+
+<h3 id="passo-5">Passo 5</h3>
+
+<p>Clique sobre <code class="language-plaintext highlighter-rouge">Editar Zona</code>:</p>
+<p><img class="img-responsive center-block" src="../../../media/blog/registro-br-dominios-editar-zona.png" alt="Registro.br &gt; Domínios - Editar Zona" /></p>
+
+<h3 id="passo-6">Passo 6</h3>
+
+<p>Adicione os seguintes registros:</p>
+
+<ul>
+  <li>
+    <p>o seu <code class="language-plaintext highlighter-rouge">dominío.exemplo.br</code> deve receber dois registros <code class="language-plaintext highlighter-rouge">A</code> (apex) com os ip’s dos servidores do GitHub Pages (<code class="language-plaintext highlighter-rouge">192.30.252.153</code> e <code class="language-plaintext highlighter-rouge">192.30.252.154</code>);</p>
+  </li>
+  <li>
+    <p>o seu <code class="language-plaintext highlighter-rouge">sub.dominío.exemplo.br</code> deve receber um registro <code class="language-plaintext highlighter-rouge">CNAME</code> com o nome da <code class="language-plaintext highlighter-rouge">suapágina.github.io</code> no GitHub Pages.</p>
+  </li>
+</ul>
+
+<p>As minhas configurações ficaram assim:</p>
+<p><img class="img-responsive center-block" src="../../../media/blog/registro-br-dominios-edicao-de-zona.png" alt="Registro.br &gt; Domínios - Edição de Zona" /></p>
+
+<h3 id="passo-7">Passo 7</h3>
+
+<p>Tudo Pronto! Para conferir os efeitos, aguarde o tempo recomendado pelo Registro.br (<code class="language-plaintext highlighter-rouge">de 24h</code>) para a atualização dos servidores e propagação das novas configurações.</p>
+
+          </div>  
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <p>_</p>
+            <!-- Author-Date -->
+          
+          
+            <span class="meta margin-top">&#32;<a href='http://portfolio.rafael.picanco.nom.br/pt-br/projects.html'>Rafael Picanço</a>,&#32;
+            6
+            &#32;de&#32;
+            
+            Junho
+              
+            &#32;de&#32;
+            2015.
+            </span>
+           
+            <hr>
+            <!-- Social Buttons -->
+            <ul class="list-inline">
+            
+              <li>
+                <a id="tw-root" href="https://twitter.com/share" class="twitter-share-button" data-url="http://blog.rafael.picanco.nom.br/2015/06/06/como-configurar-subdominio-registro-br-github-pages.html" data-text="Configurando o Registro.br para o GitHub Pages., from Rafael Picanço's blog" data-counturl="http://blog.rafael.picanco.nom.br/2015/06/06/como-configurar-subdominio-registro-br-github-pages.html" data-count="horizontal" data-via="crpicanco" title="Tweet">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+
+              <li id="fb-root">
+                <a id="fb-fa" href="https://www.facebook.com/sharer/sharer.php?u=http://blog.rafael.picanco.nom.br/2015/06/06/como-configurar-subdominio-registro-br-github-pages.html" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=http://blog.rafael.picanco.nom.br/2015/06/06/como-configurar-subdominio-registro-br-github-pages.html', 'facebook-share','width=580,height=296');return false;" title="Compartilhe no Facebook">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+                <a class="fb-like" data-href="http://blog.rafael.picanco.nom.br/2015/06/06/como-configurar-subdominio-registro-br-github-pages.html" data-layout="button_count" data-action="like" data-share="true" data-text="Configurando o Registro.br para o GitHub Pages., blog do Rafael Picanço" data-counturl="http://blog.rafael.picanco.nom.br/2015/06/06/como-configurar-subdominio-registro-br-github-pages.html" data-proofer-ignore></a>
+              </li>
+            </ul>
+            <hr>
+            <div class="text-center">         
+            
+              <a class="btn btn-default btn-block" href="/pt-br/">LEIA MAIS</a>
+            
+            </div>
+          </div>
+        </div>          
+      </div>
+    </article>
+    
+    <hr>
+
+    <div id="disqus_thread" class="container"></div>
+
+    <!-- Footer -->
+    <footer id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <ul class="list-inline text-center">
+              <li>
+                <a href="https://twitter.com/crpicanco">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://soundcloud.com/carlitusbatera">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-soundcloud fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/cpicanco">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <p class="text-muted text-center">
+            
+              &copy; Carlos Rafael Fernandes Picanço, 2015-2019.<br>
+              Hospedado pelo <a href="https://github.com/cpicanco/blog/">GitHub Pages</a>.<br>
+              Construido com o <a href="https://getbootstrap.com/">Bootstrap</a> e o <a href="https://jekyllrb.com/">Jekyll</a>.<br>
+            
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- JQuery may conflict with Bootstrap, they said -->        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script>
+          if (typeof jQuery === 'undefined') {
+            document.write(unescape('%3Cscript%20src%3D%22/js/jquery.min.js%22%3E%3C/script%3E'));
+          };
+        </script>
+      <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster 
+        http://encosia.com/3-reasons-why-you-should-let-google-host-jquery-for-you/
+        http://stackoverflow.com/questions/26192897/should-i-use-bootstrap-from-cdn-or-make-a-copy-on-my-server
+      -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script>
+          if (typeof($.fn.modal) === 'undefined') {
+            document.write(unescape('%3Cscript%20src%3D%22/js/bootstrap.min.js%22%3E%3C/script%3E'));
+          };
+        </script>
+
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="/js/ie10-viewport-bug-workaround.min.js"></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-59877002-2');
+        </script>
+
+
+        <!-- Google Knowledge Graph -->
+    
+    
+        <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Article",
+          "author": "Rafael Picanço",
+          "name": "Configurando o Registro.br para o GitHub Pages.",
+          "articleSection": "passo a passo, web design",
+          "datePublished": "2015-06-06",
+          "headline": "como configurar um subdomínio do Registro.br para o GitHub Pages",
+          
+          "image": "http://blog.rafael.picanco.nom.br/media/blog/in-flagellis-clean.png"
+          
+        }
+        </script>
+    
+
+    <!-- Lazy load -->
+        <!-- Twitter JavaScript
+        http://www.paulund.co.uk/lazy-load-social-media
+        -->
+        <script type="text/javascript">
+          var tweetHover = function(e){
+            $(e).hover(
+              function(){ // mouse enter
+                if ($(this).hasClass("share-enabled")) {
+                  // do nothing
+                } else {
+                  if (typeof (twttr) != 'undefined'){ // will load just the entered #tw-root
+                    twttr.widgets.load(this);
+                    $(this).addClass("share-enabled");
+                  } else {  // will load all #tw-root, and it sucks
+                    $.getScript('http://platform.twitter.com/widgets.js');
+                    $(this).addClass("share-enabled");
+                  }
+                }
+              },
+              function(){ // mouse leave
+
+              }
+            );           
+          };
+          $(document).ready(function(){
+            tweetHover("#tw-root");
+          });
+        </script>
+        
+        <!-- Facebook JavaScript
+        https://developers.facebook.com/docs/javascript/howto/jquery/v2.4
+        -->
+        <script type="text/javascript">
+          var facebook_sdk = '//connect.facebook.net/en_US/sdk.js';
+          if (document.documentElement.lang = 'pt-BR') {
+            facebook_sdk = '//connect.facebook.net/pt_BR/sdk.js';
+          };
+          
+          var facebookHover = function(e){
+            $(e).hover(
+              function(){ // mouse enter
+                if ($(this).hasClass("share-enabled")) {
+                  // do nothing
+                } else {
+                  if (typeof (FB) != 'undefined') { // will load just the entered #fb-root
+                    FB.XFBML.parse(this); 
+                    $(this).addClass("share-enabled");
+                    $(this).find("#fb-fa").remove();
+                  } else { // will load all #fb-root, and it sucks too
+                    $.getScript(facebook_sdk, function(){
+                      FB.init({
+                        appId   : '179917338701622',
+                        xfbml   : true,
+                        version : 'v2.4'
+                      });
+                    });
+                    $(this).addClass("share-enabled");
+                    $(document).find("[id=fb-fa]").each(function(){$(this).remove()});
+                  }
+                }
+              },
+              function(){ // mouse leave
+                //
+              }
+            );
+          };
+          $(document).ready(function(){
+            facebookHover("#fb-root");
+          });
+        </script>
+    <!-- Highlight.js -->
+  <script src="/js/highlight-pack.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+        <!-- Disqus scripts -->
+    <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES * * */
+      var dlanguage = 'en';
+      if (document.documentElement.lang = 'pt-BR') {
+        dlanguage = 'pt';
+      };
+      var disqus_shortname = 'inflagellis';
+      var disqus_url = 'http://blog.rafael.picanco.nom.br/2015/06/06/como-configurar-subdominio-registro-br-github-pages.html';
+      var disqus_identifier = '/2015/06/06/como-configurar-subdominio-registro-br-github-pages';
+      var disqus_config = function () {
+                            this.language = dlanguage;
+                          };
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+
+      /* * * Disqus Reset Function * * */
+      function resetDisqus(newIdentifier, newUrl, newTitle, newLanguage) {
+        DISQUS.reset({
+          reload: true,
+          config: function () {
+            this.page.identifier = newIdentifier;
+            this.page.url = newUrl;
+            this.page.title = newTitle;
+            this.language = newLanguage;
+          }
+        });
+      };
+    </script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/clean-blog.min.js"></script> 
+  </body>
+</html>
