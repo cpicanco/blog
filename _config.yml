@@ -1,6 +1,5 @@
 yarray: []
 mpaginate: 3
-year: 2015-2021
 author: 'Rafael Picanço'
 url: https://blog.rafael.picanco.nom.br
 exclude: ['.gitignore',
