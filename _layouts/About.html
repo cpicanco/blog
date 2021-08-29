@@ -1,0 +1,102 @@
+<!--Copyright (c) 2015-2018 Carlos Rafael Fernandes Picanço.-->
+<!DOCTYPE html>
+<html lang="{{ page.language }}">
+
+  {% capture SHARE_IMAGE %}{{ site.url }}/media/blog/in-flagellis-clean-{{ page.language | downcase }}.png{% endcapture %}
+  {% include blog_head.html share-image=SHARE_IMAGE %}
+    
+  {% include blog_head.html %}
+
+  <body style="background-color:#153038;">       
+    {% capture PAGE_PATH %}/{{ page.language | downcase }}/{% endcapture %}  
+    {% include blog_nav.html home-path=PAGE_PATH %} 
+      
+    <header class="intro-header" style="margin:0">
+      <div class="container">
+        <div class="row">
+          <div class="col">  
+              <div class="text-center"> 
+                <div class="site-heading">
+                    <h3>{{ page.title }}</h3>
+                  <hr class="small">
+                  <span class="subheading">{{ page.content }}</span>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+        <div class="row text-muted">
+          <div class="col">
+            <ul class="list-inline text-center">
+
+              <li>
+                <a href="https://github.com/cpicanco">
+                  <span class="fa-stack fa-lg fa-3x" title="GitHub" data-toggle="tooltip" data-placement="bottom">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.researchgate.net/profile/Carlos_Picanco">
+                  <span class="fa-stack fa-lg fa-3x" title="Research Gate" data-toggle="tooltip" data-placement="bottom">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="ai ai-researchgate fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              
+              <li>
+                <a href="https://soundcloud.com/carlitusbatera">
+                  <span class="fa-stack fa-lg fa-3x" title="Soundcloud" data-toggle="tooltip" data-placement="bottom">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-soundcloud fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://twitter.com/crpicanco">
+                  <span class="fa-stack fa-lg fa-3x" title="Twitter" data-toggle="tooltip" data-placement="bottom">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              
+              <li>
+                <a href="https://www.zotero.org/cpicanco/">
+                  <span class="fa-stack fa-lg fa-3x" title="Zotero" data-toggle="tooltip" data-placement="bottom">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="ai ai-zotero-square fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+
+              <li>
+                <a href="http://codereview.stackexchange.com/users/62263/cpicanco">
+                  <span class="fa-stack fa-lg fa-3x" title="Code Review" data-toggle="tooltip" data-placement="bottom">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-stack-exchange fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+
+      </div><!-- /.starter-template -->
+    </div><!-- /.container -->
+    
+    {% include global_scripts.html %}
+
+    <script type="text/javascript">$(function(){$('[data-toggle="tooltip"]').tooltip()})</script>
+    
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/clean-blog.min.js"></script>
+  </body>
+</html>
