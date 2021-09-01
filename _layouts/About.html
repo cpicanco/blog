@@ -4,18 +4,16 @@
 
   {% capture SHARE_IMAGE %}{{ site.url }}/media/blog/in-flagellis-clean-{{ page.language | downcase }}.png{% endcapture %}
   {% include blog_head.html share-image=SHARE_IMAGE %}
-    
-  {% include blog_head.html %}
 
-  <body style="background-color:#153038;">       
-    {% capture PAGE_PATH %}/{{ page.language | downcase }}/{% endcapture %}  
-    {% include blog_nav.html home-path=PAGE_PATH %} 
-      
+  <body style="background-color:#153038;">
+    {% capture PAGE_PATH %}/{{ page.language | downcase }}/{% endcapture %}
+    {% include blog_nav.html home-path=PAGE_PATH %}
+
     <header class="intro-header" style="margin:0">
       <div class="container">
         <div class="row">
-          <div class="col">  
-              <div class="text-center"> 
+          <div class="col">
+              <div class="text-center">
                 <div class="site-heading">
                     <h3>{{ page.title }}</h3>
                   <hr class="small">
@@ -48,7 +46,7 @@
                   </span>
                 </a>
               </li>
-              
+
               <li>
                 <a href="https://soundcloud.com/carlitusbatera">
                   <span class="fa-stack fa-lg fa-3x" title="Soundcloud" data-toggle="tooltip" data-placement="bottom">
@@ -66,7 +64,7 @@
                   </span>
                 </a>
               </li>
-              
+
               <li>
                 <a href="https://www.zotero.org/cpicanco/">
                   <span class="fa-stack fa-lg fa-3x" title="Zotero" data-toggle="tooltip" data-placement="bottom">
@@ -84,18 +82,18 @@
                   </span>
                 </a>
               </li>
-              
+
             </ul>
           </div>
         </div>
 
       </div><!-- /.starter-template -->
     </div><!-- /.container -->
-    
+
     {% include global_scripts.html %}
 
     <script type="text/javascript">$(function(){$('[data-toggle="tooltip"]').tooltip()})</script>
-    
+
     <!-- Custom Theme JavaScript -->
     <script src="/js/clean-blog.min.js"></script>
   </body>
