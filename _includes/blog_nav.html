@@ -14,14 +14,14 @@
 
           </button>
           {% if page.language == 'en' %}
-            <a class="navbar-brand" href="https://portfolio.rafael.picanco.nom.br/en/projects.html">&middot;&#32;Portfolio</a>
+            <a class="navbar-brand" href="https://portfolio.rafael.picanco.nom.br/en/">&middot;&#32;Portfolio</a>
             <a class="navbar-brand" href="https://blog.rafael.picanco.nom.br/en/">&middot;&#32;Blog</a>
             <a class="navbar-brand" href="http://lattes.cnpq.br/9925169248427338">&middot;&#32;Lattes</a>
           {% elsif page.language == 'pt-BR' %}
-            <a class="navbar-brand" href="https://portfolio.rafael.picanco.nom.br/pt-br/projects.html">&middot;&#32;Portfólio</a>
+            <a class="navbar-brand" href="https://portfolio.rafael.picanco.nom.br/pt-br/">&middot;&#32;Portfólio</a>
             <a class="navbar-brand" href="https://blog.rafael.picanco.nom.br/pt-br/">&middot;&#32;Blog</a>
             <a class="navbar-brand" href="http://lattes.cnpq.br/9925169248427338">&middot;&#32;Lattes</a>
-          {% endif %}        
+          {% endif %}
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -30,16 +30,16 @@
           {% if page.language == 'en' %}
             {% if page.layout == 'Post' %}
               {% if page.pt != null %}
-                <li><a href="{{ page.pt }}">Português</a></li> 
+                <li><a href="{{ page.pt }}">Português</a></li>
               {% endif %}
-              <li><a href="/en/about/">About</a></li> 
+              <li><a href="/en/about/">About</a></li>
             {% elsif page.layout == 'InitialPage' %}
               <li><a href="/pt-br/">Português</a></li>
-              <li><a href="/en/about/">About</a></li> 
+              <li><a href="/en/about/">About</a></li>
             {% elsif page.layout == 'Tags' %}
               <li><a href="#">See All Categories</a></li>
               <li><a href="/pt-br/tags/">Português</a></li>
-              <li><a href="/en/about/">About</a></li> 
+              <li><a href="/en/about/">About</a></li>
             {% elsif page.layout == 'About' %}
               <li><a href="/pt-br/about/">Português</a></li>
             {% endif %}
@@ -47,18 +47,18 @@
           {% elsif page.language == 'pt-BR' %}
             {% if page.layout == 'Post' %}
               {% if page.en != null %}
-                <li><a href="{{ page.en }}">English</a></li> 
+                <li><a href="{{ page.en }}">English</a></li>
               {% endif %}
-              <li><a href="/pt-br/about/">Sobre o autor</a></li>           
+              <li><a href="/pt-br/about/">Sobre o autor</a></li>
             {% elsif page.layout == 'InitialPage' %}
               <li><a href="/en/">English</a></li>
               <li><a href="/pt-br/about/">Sobre o autor</a></li>
             {% elsif page.layout == 'Tags' %}
               <li><a href="#">Ver Todas as Categorias</a></li>
               <li><a href="/en/tags/">English</a></li>
-              <li><a href="/pt-br/about/">Sobre o autor</a></li> 
+              <li><a href="/pt-br/about/">Sobre o autor</a></li>
             {% elsif page.layout == 'About' %}
-              <li><a href="/en/about/">English</a></li>              
+              <li><a href="/en/about/">English</a></li>
             {% endif %}
           {% endif %}
           </ul>

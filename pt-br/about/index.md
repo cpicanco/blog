@@ -3,7 +3,7 @@ layout: About
 title: Olá, me chamo Rafael
 en: /blog/en/about/
 ---
-Eu desenvolvo <a style="color:#ADD8E6" href="https://portfolio.rafael.picanco.nom.br/pt-br/projects">programas de computador</a> para pesquisadores. <br>
+Eu desenvolvo <a style="color:#ADD8E6" href="https://portfolio.rafael.picanco.nom.br/pt-br/">programas de computador</a> para pesquisadores. <br>
 Meus trabalhos recentes incluem tópicos sobre simulações comportamentais, desconto/demanda, escolha de acordo com o modelo e esquemas de reforçamento.<br><br>
 Entre em contato para orçamentos:<br>
             <ul class="list-inline text-center">

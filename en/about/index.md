@@ -3,7 +3,7 @@ layout: About
 title: Hi there, I am Rafael 
 pt: /blog/pt-br/about/
 ---
-I develop <a style="color:#ADD8E6" href="https://portfolio.rafael.picanco.nom.br/en/projects">software</a> for researchers. <br>
+I develop <a style="color:#ADD8E6" href="https://portfolio.rafael.picanco.nom.br/en/">software</a> for researchers. <br>
 My recent works includes topics on behavioral simulations, discount/demand, matching-to-sample and schedules of reinforcement.<br><br>
 Contact me for pricing<br>
             <ul class="list-inline text-center">
