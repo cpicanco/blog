@@ -7,30 +7,6 @@
 
 
 
-  
-  <url>
-    <loc>https://blog.rafael.picanco.nom.br/en/tags/</loc>
-  
-    <lastmod>2021-09-27T21:33:40+00:00</lastmod>
-  
-    <changefreq>monthly</changefreq>
-  
-    <priority>0.8</priority>
-  
-  
-    <xhtml:link rel="alternate"
-                hreflang="pt-BR"
-                href="https://blog.rafael.picanco.nom.br/blog/pt-br/tags/" />
-    <xhtml:link rel="alternate"
-                hreflang="en"
-                href="https://blog.rafael.picanco.nom.br/en/tags/" />
-  
-  
-  </url>
-
-
-
-
 
 
 
@@ -107,7 +83,7 @@
   <url>
     <loc>https://blog.rafael.picanco.nom.br/pt-br/tags/</loc>
   
-    <lastmod>2021-09-27T21:33:40+00:00</lastmod>
+    <lastmod>2022-07-27T16:04:31+00:00</lastmod>
   
     <changefreq>monthly</changefreq>
   
@@ -125,60 +101,40 @@
   </url>
 
 
+
+
+  
+  <url>
+    <loc>https://blog.rafael.picanco.nom.br/en/tags/</loc>
+  
+    <lastmod>2022-07-27T16:04:31+00:00</lastmod>
+  
+    <changefreq>monthly</changefreq>
+  
+    <priority>0.8</priority>
+  
+  
+    <xhtml:link rel="alternate"
+                hreflang="pt-BR"
+                href="https://blog.rafael.picanco.nom.br/blog/pt-br/tags/" />
+    <xhtml:link rel="alternate"
+                hreflang="en"
+                href="https://blog.rafael.picanco.nom.br/en/tags/" />
+  
+  
+  </url>
+
+
   
   <url>
     <loc>https://blog.rafael.picanco.nom.br/</loc>
   
-    <lastmod>2021-09-27T21:33:40+00:00</lastmod>
+    <lastmod>2022-07-27T16:04:31+00:00</lastmod>
   
     <changefreq>monthly</changefreq>
   
     <priority>0.8</priority>
   
-  
-  
-  </url>
-
-
-  
-  <url>
-    <loc>https://blog.rafael.picanco.nom.br/en/about/</loc>
-  
-    <lastmod>2021-09-27T21:33:40+00:00</lastmod>
-  
-    <changefreq>monthly</changefreq>
-  
-    <priority>0.8</priority>
-  
-  
-    <xhtml:link rel="alternate"
-                hreflang="pt-BR"
-                href="https://blog.rafael.picanco.nom.br/blog/pt-br/about/" />
-    <xhtml:link rel="alternate"
-                hreflang="en"
-                href="https://blog.rafael.picanco.nom.br/en/about/" />
-  
-  
-  </url>
-
-
-  
-  <url>
-    <loc>https://blog.rafael.picanco.nom.br/en/</loc>
-  
-    <lastmod>2021-09-27T21:33:40+00:00</lastmod>
-  
-    <changefreq>monthly</changefreq>
-  
-    <priority>1.0</priority>
-  
-  
-    <xhtml:link rel="alternate"
-                hreflang="pt-BR"
-                href="https://blog.rafael.picanco.nom.br/blog/pt-br/" />
-    <xhtml:link rel="alternate"
-                hreflang="en"
-                href="https://blog.rafael.picanco.nom.br/en/" />
   
   
   </url>
@@ -188,7 +144,7 @@
   <url>
     <loc>https://blog.rafael.picanco.nom.br/pt-br/about/</loc>
   
-    <lastmod>2021-09-27T21:33:40+00:00</lastmod>
+    <lastmod>2022-07-27T16:04:31+00:00</lastmod>
   
     <changefreq>monthly</changefreq>
   
@@ -210,7 +166,7 @@
   <url>
     <loc>https://blog.rafael.picanco.nom.br/pt-br/</loc>
   
-    <lastmod>2021-09-27T21:33:40+00:00</lastmod>
+    <lastmod>2022-07-27T16:04:31+00:00</lastmod>
   
     <changefreq>monthly</changefreq>
   
@@ -230,9 +186,53 @@
 
   
   <url>
+    <loc>https://blog.rafael.picanco.nom.br/en/about/</loc>
+  
+    <lastmod>2022-07-27T16:04:31+00:00</lastmod>
+  
+    <changefreq>monthly</changefreq>
+  
+    <priority>0.8</priority>
+  
+  
+    <xhtml:link rel="alternate"
+                hreflang="pt-BR"
+                href="https://blog.rafael.picanco.nom.br/blog/pt-br/about/" />
+    <xhtml:link rel="alternate"
+                hreflang="en"
+                href="https://blog.rafael.picanco.nom.br/en/about/" />
+  
+  
+  </url>
+
+
+  
+  <url>
+    <loc>https://blog.rafael.picanco.nom.br/en/</loc>
+  
+    <lastmod>2022-07-27T16:04:31+00:00</lastmod>
+  
+    <changefreq>monthly</changefreq>
+  
+    <priority>1.0</priority>
+  
+  
+    <xhtml:link rel="alternate"
+                hreflang="pt-BR"
+                href="https://blog.rafael.picanco.nom.br/blog/pt-br/" />
+    <xhtml:link rel="alternate"
+                hreflang="en"
+                href="https://blog.rafael.picanco.nom.br/en/" />
+  
+  
+  </url>
+
+
+  
+  <url>
     <loc>https://blog.rafael.picanco.nom.br/sitemap.xml</loc>
   
-    <lastmod>2021-09-27T21:33:40+00:00</lastmod>
+    <lastmod>2022-07-27T16:04:31+00:00</lastmod>
   
     <changefreq>monthly</changefreq>
   
@@ -244,6 +244,17 @@
 
 
 
+
+  <url>
+    <loc>https://blog.rafael.picanco.nom.br/2022/07/27/su.html</loc>
+  
+    <lastmod>2022-07-27T00:00:00+00:00</lastmod>
+  
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  
+  
+  </url>
 
   <url>
     <loc>https://blog.rafael.picanco.nom.br/2020/02/09/um-sentimento-fora.html</loc>
