@@ -9,7 +9,7 @@ copyright: <!--Copyright (c) 2018 Carlos Rafael Fernandes Picanço.-->
 ---
 ## Como citar esse trabalho?
 
-O presente trabalho é uma versão de um capítulo da obra "Introdução ao desenvolvimento de softwares para analistas do comportamento", E-book gratuito, download completo disponível em: [http://abpmc.org.br/publicacoes.php?inf=14](http://abpmc.org.br/publicacoes.php?inf=14)
+O presente trabalho é uma versão de um capítulo da obra "Introdução ao desenvolvimento de softwares para analistas do comportamento", E-book gratuito, download completo disponível em: [https://abpmc.org.br/publicacoes.php?inf=14](https://abpmc.org.br/publicacoes.php?inf=14)
 
 Cite a versão do livro assim:
 
@@ -17,7 +17,7 @@ Cite a versão do livro assim:
 
 Cite esta versão assim:
 
-> Picanço, C. R. F. (21 de março de 2018). Introdução ao desenvolvimento de interfaces gráficas com Lazarus e Free Pascal [Blog]. Recuperado de: http://blog.rafael.picanco.nom.br/2017/08/15/object-pascal.html
+> Picanço, C. R. F. (21 de março de 2018). Introdução ao desenvolvimento de interfaces gráficas com Lazarus e Free Pascal [Blog]. Recuperado de: https://blog.rafael.picanco.nom.br/2017/08/15/object-pascal.html
 
 Versões anteriores disponíveis no repositório: https://github.com/cpicanco/blog/
 
@@ -69,17 +69,17 @@ Compilador (Free Pascal) e interface (Lazarus) são distribuídos por meio de li
 
 O ambiente está disponível para sistemas operacionais como o OSX, Windows e baseados no *kernel* Linux (Debian, Ubuntu) e agrega uma grande comunidade de desenvolvedores independentes. Os principais meios de informação e comunicação nesse ecossistema são:
 
-- [A wiki](http://wiki.freepascal.org/): http://wiki.freepascal.org/
-- [O fórum](http://forum.lazarus.freepascal.org/): http://forum.lazarus.freepascal.org/
+- [A wiki](https://wiki.freepascal.org/): https://wiki.freepascal.org/
+- [O fórum](https://forum.lazarus.freepascal.org/): https://forum.lazarus.freepascal.org/
 - As listas de emails: 
-  - [Lazarus](http://lists.lazarus.freepascal.org/mailman/listinfo/lazarus):http://lists.lazarus.freepascal.org/mailman/listinfo/lazarus
+  - [Lazarus](https://lists.lazarus.freepascal.org/mailman/listinfo/lazarus):https://lists.lazarus.freepascal.org/mailman/listinfo/lazarus
   - [Free Pascal](https://www.freepascal.org/maillist.var):https://www.freepascal.org/maillist.var
 - Os sites oficiais:
-  - [Pacotes](http://packages.lazarus-ide.org/): http://packages.lazarus-ide.org/
+  - [Pacotes](https://packages.lazarus-ide.org/): https://packages.lazarus-ide.org/
   - [Fundação](https://foundation.freepascal.org/): https://foundation.freepascal.org/
-  - [Lazarus](http://lazarus-ide.org/): http://lazarus-ide.org/
+  - [Lazarus](https://lazarus-ide.org/): https://lazarus-ide.org/
   - [Free Pascal](https://www.freepascal.org/): https://www.freepascal.org/
-- [O rastreador de bugs](http://bugs.freepascal.org/): http://bugs.freepascal.org/
+- [O rastreador de bugs](https://bugs.freepascal.org/): https://bugs.freepascal.org/
 
 Diversas coleções de unidades, componentes e pacotes reunidos nas chamadas “bibliotecas” já vem pré-instalados. Eles permitem a execução de tarefas gerais de programação:
 
@@ -96,7 +96,7 @@ Ao explorar o ecossistema por meio de buscadores online, seja em busca de ajuda,
 Baixe os arquivos de instalação correspondentes para o seu sistema no sítio de hospedagem oficial ([https://www.lazarus-ide.org](https://www.lazarus-ide.org)). Em seguida execute o instalador (ou instaladores, se Linux e OSX). Caso seja solicitado, forneça os privilégios de administrador do sistema operacional ao instalador. O processo de instalação e configuração mínima é automático.
 
 Este guia fará referência aos nomes dos controles da interface Lazarus tal como traduzidos para o português brasileiro, portanto recomenda-se a escolha deste idioma ao longo da instalação. Opcionalmente, após a instalação, altere o idioma no menu superior Ferramentas->Opções da IDE->Ambiente->Geral->Idioma. Opcionalmente você também pode trocar os esquemas de cores das janelas. Diversos esquemas de cores para as janelas estão disponíveis. Para mais informações, consulte o endereço:   
-[http://wiki.lazarus.freepascal.org/UserSuppliedSchemeSettings](http://wiki.lazarus.freepascal.org/UserSuppliedSchemeSettings)
+[https://wiki.lazarus.freepascal.org/UserSuppliedSchemeSettings](https://wiki.lazarus.freepascal.org/UserSuppliedSchemeSettings)
 
 ## Lazarus - criando e executando uma aplicação
 

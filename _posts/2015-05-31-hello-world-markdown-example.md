@@ -165,10 +165,10 @@ ___
 **Links**
 
 
-    [www.google.com](http://www.google.com)
+    [www.google.com](https://www.google.com)
 
 
-[www.google.com](http://www.google.com)
+[www.google.com](https://www.google.com)
 
 
 Html is used for responsive images:
@@ -179,7 +179,7 @@ Html is used for responsive images:
 
 <p><img class="img-responsive center-block" src="/media/blog/in-flagellis-clean.png" alt="Image" /></p>
 
-You could use `![alt](http://link)` to link (unresponsive) images as well.
+You could use `![alt](https://link)` to link (unresponsive) images as well.
 
 ___
 

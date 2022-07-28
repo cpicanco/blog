@@ -2,11 +2,11 @@
 
 ![GitHub Actions](https://github.com/cpicanco/blog/actions/workflows/jekyll.yml/badge.svg)
 
-This site uses [Bootstrap](http://getbootstrap.com/)!
+This site uses [Bootstrap](https://getbootstrap.com/)!
  - it is awesome!
- - is a modified version of the [Clean Blog Template](http://startbootstrap.com/template-overviews/clean-blog/) 
+ - is a modified version of the [Clean Blog Template](https://startbootstrap.com/template-overviews/clean-blog/) 
 
-... And [Jekyll](http://jekyllrb.com/) too!
+... And [Jekyll](https://jekyllrb.com/) too!
  - Emoji;
  - posts, layouts and includes examples;
  - post with GitHub markdown;
@@ -25,15 +25,15 @@ index: 1
 ```
 
 Also some work was done with:
- - Infinite scroll with [Waypoints](http://imakewebthings.com/waypoints/shortcuts/infinite-scroll/);
+ - Infinite scroll with [Waypoints](https://imakewebthings.com/waypoints/shortcuts/infinite-scroll/);
  - leave comments with [Disqus](https://disqus.com/);
  - Open Graph for image and description preview on Facebook;
  - Twitter Card from image and description preview on Twitter;
  - [Google OSE](https://www.google.com/webmasters/);
- - [Grunt Task Runner](http://gruntjs.com/);
- - using [GIMP](http://www.gimp.org/) to compress images;
+ - [Grunt Task Runner](https://gruntjs.com/);
+ - using [GIMP](https://www.gimp.org/) to compress images;
 
-Finally, some [Academicons](http://jpswalsh.github.io/academicons/) were used and some [highlight.js](https://highlightjs.org/) as well. 
+Finally, some [Academicons](https://jpswalsh.github.io/academicons/) were used and some [highlight.js](https://highlightjs.org/) as well. 
 
 Next steps are:
  - lag work for a completely auto Pagination system :P
@@ -51,4 +51,4 @@ Following files, directories and their contents (including directories, subdirec
 * _site/
 * media/
 
-All other files and directories are licensed under the [MIT](http://www.opensource.org/licenses/mit-license.php) license unless explicitly stated.
+All other files and directories are licensed under the [MIT](https://www.opensource.org/licenses/mit-license.php) license unless explicitly stated.

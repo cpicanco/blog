@@ -2,4 +2,4 @@ User-agent: *
 
 Allow: /
 
-Sitemap:http://blog.rafael.picanco.nom.br/sitemap.xml
+Sitemap:https://blog.rafael.picanco.nom.br/sitemap.xml

@@ -8,8 +8,8 @@
       <!-- Bootstrap core JavaScript
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster 
-        http://encosia.com/3-reasons-why-you-should-let-google-host-jquery-for-you/
-        http://stackoverflow.com/questions/26192897/should-i-use-bootstrap-from-cdn-or-make-a-copy-on-my-server
+        https://encosia.com/3-reasons-why-you-should-let-google-host-jquery-for-you/
+        https://stackoverflow.com/questions/26192897/should-i-use-bootstrap-from-cdn-or-make-a-copy-on-my-server
       -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <script>
@@ -36,7 +36,7 @@
     {% capture post_tags %}{% for tag in page.tags %}{{ tag }}, {% endfor %}{% endcapture %}
         <script type="application/ld+json">
         {
-          "@context": "http://schema.org",
+          "@context": "https://schema.org",
           "@type": "Article",
           "author": "{{ page.author }}",
           "name": "{{ page.title }}",
@@ -53,7 +53,7 @@
     {% else %}
         <script type="application/ld+json">
         {
-          "@context" : "http://schema.org",
+          "@context" : "https://schema.org",
           "@type" : "Person",
           "name" : "{{ page.author }}",
           "jobTitle": "Doctoral student",
@@ -69,7 +69,7 @@
             "https://geape-ufpa.academia.edu/CarlosRafael", 
             "https://www.researchgate.net/profile/Carlos_Picanco",
             "https://www.zotero.org/cpicanco/",
-            "http://codereview.stackexchange.com/users/62263/cpicanco"
+            "https://codereview.stackexchange.com/users/62263/cpicanco"
           ]
         }
         </script>

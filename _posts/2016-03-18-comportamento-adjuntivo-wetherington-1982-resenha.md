@@ -6,7 +6,7 @@ excerpt: 'respondentes, operantes e adjuntivos?'
 language: pt-BR
 copyright: <!--Copyright (c) 2015-2016 Carlos Rafael Fernandes Picanço.-->
 ---
-[Wetherington, C. L. (1982).][1] Is adjunctive behavior a third class of behavior? *Neuroscience and Biobehavioral Reviews*, *6* (3), 329–350. [http://doi.org/10.1016/0149-7634(82)90045-8][1b]
+[Wetherington, C. L. (1982).][1] Is adjunctive behavior a third class of behavior? *Neuroscience and Biobehavioral Reviews*, *6* (3), 329–350. [https://doi.org/10.1016/0149-7634(82)90045-8][1b]
 
 ___
 
@@ -81,18 +81,18 @@ Demonstra que comportamento adjuntivo possui aspectos operantes, respondentes e 
 
 ## Referências
 
-[Falk, J. L. (1961).][2] Production of polydipsia in normal rats by an intermittent food schedule. *Science*, *133*(3447), 195–196. [http://doi.org/10.1126/science.133.3447.195][2b]
+[Falk, J. L. (1961).][2] Production of polydipsia in normal rats by an intermittent food schedule. *Science*, *133*(3447), 195–196. [https://doi.org/10.1126/science.133.3447.195][2b]
 
-[Falk, J. L. (1966).][3] The motivational properties of schedule-induced polydipsia1. Journal of the Experimental Analysis of Behavior, 9(1), 19–25. [http://doi.org/10.1901/jeab.1966.9-19][3b]
+[Falk, J. L. (1966).][3] The motivational properties of schedule-induced polydipsia1. Journal of the Experimental Analysis of Behavior, 9(1), 19–25. [https://doi.org/10.1901/jeab.1966.9-19][3b]
 
-[Falk, J. L. (1971).][4] The nature and determinants of adjunctive behavior. Physiology & Behavior, 6(5), 577–588. [http://doi.org/10.1016/0031-9384(71)90209-5][4b]
+[Falk, J. L. (1971).][4] The nature and determinants of adjunctive behavior. Physiology & Behavior, 6(5), 577–588. [https://doi.org/10.1016/0031-9384(71)90209-5][4b]
 
 
-[1]: http://www.ncbi.nlm.nih.gov/pubmed/6757807 "Is adjunctive behavior a third class of behavior?"
-[1b]: http://sci-hub.io/10.1016/0149-7634%2882%2990045-8
-[2]: http://www.ncbi.nlm.nih.gov/pubmed/13698026 "Production of polydipsia in normal rats by an intermittent food schedule."
-[2b]: http://sci-hub.io/10.1126/science.133.3447.195
-[3]: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1338140/ "The motivational properties of schedule-induced polydipsia"
-[3b]: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1338140/pdf/jeabehav00171-0021.pdf
-[4]: http://www.sciencedirect.com/science/article/pii/0031938471902095 "The nature and determinants of adjunctive behavior"
-[4b]: http://sci-hub.io/10.1016/0031-9384%2871%2990209-5
+[1]: https://www.ncbi.nlm.nih.gov/pubmed/6757807 "Is adjunctive behavior a third class of behavior?"
+[1b]: https://sci-hub.io/10.1016/0149-7634%2882%2990045-8
+[2]: https://www.ncbi.nlm.nih.gov/pubmed/13698026 "Production of polydipsia in normal rats by an intermittent food schedule."
+[2b]: https://sci-hub.io/10.1126/science.133.3447.195
+[3]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1338140/ "The motivational properties of schedule-induced polydipsia"
+[3b]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1338140/pdf/jeabehav00171-0021.pdf
+[4]: https://www.sciencedirect.com/science/article/pii/0031938471902095 "The nature and determinants of adjunctive behavior"
+[4b]: https://sci-hub.io/10.1016/0031-9384%2871%2990209-5

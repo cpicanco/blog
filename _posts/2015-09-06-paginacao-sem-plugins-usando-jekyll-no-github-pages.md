@@ -6,7 +6,7 @@ language: pt-BR
 en: /2015/09/06/jekyll-pagination-on-github-pages-without-plugins.html
 copyright: <!--Copyright (c) 2015-2016 Carlos Rafael Fernandes Picanço-->
 ---
-Estou escrevendo em um momento no qual não é possível paginar para múltiplos destinos com o Jekyll ligado no GitHub Pages. O GitHub Pages não permite usar plugins de terceiros nem customizados no Jekyll, pois o Jekyll é executado com a bandeira `--safe`. Uma alternativa é utilizar Templates com algum trabalho manual extra. Isso realmente permite a paginação para múltiplos destinos sem qualquer plugins. Estou usando a solução para gerar páginas "on demand" afim de alimentar [Waypoints - Infinite scroll](http://imakewebthings.com/waypoints/shortcuts/infinite-scroll/) da página inicial.
+Estou escrevendo em um momento no qual não é possível paginar para múltiplos destinos com o Jekyll ligado no GitHub Pages. O GitHub Pages não permite usar plugins de terceiros nem customizados no Jekyll, pois o Jekyll é executado com a bandeira `--safe`. Uma alternativa é utilizar Templates com algum trabalho manual extra. Isso realmente permite a paginação para múltiplos destinos sem qualquer plugins. Estou usando a solução para gerar páginas "on demand" afim de alimentar [Waypoints - Infinite scroll](https://imakewebthings.com/waypoints/shortcuts/infinite-scroll/) da página inicial.
 
 Este blog é um exemplo vivo dessa solução, o código fonte está aqui: [cpicanco.github.io](https://github.com/cpicanco/cpicanco.github.io).
 

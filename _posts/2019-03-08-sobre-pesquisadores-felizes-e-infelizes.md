@@ -5,14 +5,14 @@ tags: ['republicação']
 excerpt: 'Laurenti (2013)'
 language: pt-BR
 private: False
-copyright: <!--CC-BY. Psicologia em Estudo. http://www.scielo.br/revistas/pe/paboutj.htm -->
+copyright: <!--CC-BY. Psicologia em Estudo. https://www.scielo.br/revistas/pe/paboutj.htm -->
 ---
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
+<a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>
 
 Estou republicando o presente trabalho, na íntegra e sem modificações de conteúdo, pois o reconheço como sendo de grande valor para ambos, combater o produtivismo acadêmico e fortalecer relações saudáveis, honestas e felizes na academia. O texto é um Editorial originalmente publicado pela revista Psicologia em Estudo em 2013, de autoria da Profª. Dra. Carolina Laurenti.
 
-O trabalho original está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons - Atribuição  4.0 Internacional</a>. Você pode citá-lo da seguinta forma:
+O trabalho original está licenciado com uma Licença <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons - Atribuição  4.0 Internacional</a>. Você pode citá-lo da seguinta forma:
 
 
 Laurenti, C. (2013). Sobre pesquisadores felizes e infelizes... *Psicologia Em Estudo*, *18*(4), 583–586. [https://doi.org/10.1590/S1413-73722013000400001](https://doi.org/10.1590/S1413-73722013000400001)

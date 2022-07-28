@@ -1,10 +1,10 @@
 pt-BR:
   html: >
-    Lazarus IDE (Versão v1.8.2) [Programa de computador]. (2018). Recuperado de http://www.lazarus-ide.org
+    Lazarus IDE (Versão v1.8.2) [Programa de computador]. (2018). Recuperado de https://www.lazarus-ide.org
 
 en:
   html: >
-    Lazarus IDE (Versão v1.8.2) [Computer software]. (2018). Retrivied from http://www.lazarus-ide.org
+    Lazarus IDE (Versão v1.8.2) [Computer software]. (2018). Retrivied from https://www.lazarus-ide.org
 
 uses: [
       '/2017/08/15/object-pascal' 

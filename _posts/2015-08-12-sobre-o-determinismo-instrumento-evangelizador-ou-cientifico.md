@@ -42,7 +42,7 @@ Algo como estar fazendo o que é certo, mas pelos motivos errados.
 
 ### Um diálogo non-sense
 
-Tal metafísica faz o Demônio de Laplace se assemelhar ao [dragão na minha garagem](http://user.das.ufsc.br/~cancian/ciencia/ciencia_sagan_dragao.html):
+Tal metafísica faz o Demônio de Laplace se assemelhar ao [dragão na minha garagem](https://user.das.ufsc.br/~cancian/ciencia/ciencia_sagan_dragao.html):
 
 
 > H: **Quer dizer que há relações de necessidade entre todos os eventos?**
