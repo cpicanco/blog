@@ -5,111 +5,11 @@
             https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
         xmlns:xhtml="https://www.w3.org/1999/xhtml">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   
   <url>
     <loc>https://blog.rafael.picanco.nom.br/pt-br/tags/</loc>
   
-    <lastmod>2023-05-19T06:49:43+00:00</lastmod>
+    <lastmod>2023-09-15T11:38:51+00:00</lastmod>
   
     <changefreq>monthly</changefreq>
   
@@ -129,11 +29,109 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   <url>
     <loc>https://blog.rafael.picanco.nom.br/en/tags/</loc>
   
-    <lastmod>2023-05-19T06:49:43+00:00</lastmod>
+    <lastmod>2023-09-15T11:38:51+00:00</lastmod>
   
     <changefreq>monthly</changefreq>
   
@@ -151,11 +149,13 @@
   </url>
 
 
+
+
   
   <url>
     <loc>https://blog.rafael.picanco.nom.br/</loc>
   
-    <lastmod>2023-05-19T06:49:43+00:00</lastmod>
+    <lastmod>2023-09-15T11:38:51+00:00</lastmod>
   
     <changefreq>monthly</changefreq>
   
@@ -170,7 +170,7 @@
   <url>
     <loc>https://blog.rafael.picanco.nom.br/pt-br/about/</loc>
   
-    <lastmod>2023-05-19T06:49:43+00:00</lastmod>
+    <lastmod>2023-09-15T11:38:51+00:00</lastmod>
   
     <changefreq>monthly</changefreq>
   
@@ -192,7 +192,7 @@
   <url>
     <loc>https://blog.rafael.picanco.nom.br/pt-br/</loc>
   
-    <lastmod>2023-05-19T06:49:43+00:00</lastmod>
+    <lastmod>2023-09-15T11:38:51+00:00</lastmod>
   
     <changefreq>monthly</changefreq>
   
@@ -214,7 +214,7 @@
   <url>
     <loc>https://blog.rafael.picanco.nom.br/en/about/</loc>
   
-    <lastmod>2023-05-19T06:49:43+00:00</lastmod>
+    <lastmod>2023-09-15T11:38:51+00:00</lastmod>
   
     <changefreq>monthly</changefreq>
   
@@ -236,7 +236,7 @@
   <url>
     <loc>https://blog.rafael.picanco.nom.br/en/</loc>
   
-    <lastmod>2023-05-19T06:49:43+00:00</lastmod>
+    <lastmod>2023-09-15T11:38:51+00:00</lastmod>
   
     <changefreq>monthly</changefreq>
   
@@ -258,7 +258,7 @@
   <url>
     <loc>https://blog.rafael.picanco.nom.br/sitemap.xml</loc>
   
-    <lastmod>2023-05-19T06:49:43+00:00</lastmod>
+    <lastmod>2023-09-15T11:38:51+00:00</lastmod>
   
     <changefreq>monthly</changefreq>
   
